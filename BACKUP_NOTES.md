@@ -16,5 +16,10 @@ This is a current working-file snapshot, not a copy of the original Git history.
 - `bin/`: generated, runtime, dependency, or local data directory
 - `build/`: generated, runtime, dependency, or local data directory
 - `run/`: generated, runtime, dependency, or local data directory
-- `src\main\resources\assets\circlemage\models/`: generated, runtime, dependency, or local data directory
-- `src\main\resources\assets\minecraft\textures\models/`: generated, runtime, dependency, or local data directory
+
+
+
+
+## Final source/security review (2026-11-07)
+
+Restored 66 required authored source/assets that an overly broad backup filter had omitted. Source directories named `Models`, `models`, `cache` or `raw` are not treated as runtime data merely because of their names.

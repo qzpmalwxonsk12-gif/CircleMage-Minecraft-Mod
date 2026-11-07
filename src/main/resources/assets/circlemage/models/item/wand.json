@@ -1,0 +1,1 @@
+﻿{ "parent": "minecraft:item/handheld", "textures": { "layer0": "circlemage:item/wand_base" }, "overrides": [ { "predicate": { "custom_model_data": 1 }, "model": "circlemage:item/wand_tipped" } ] }
