@@ -2,6 +2,25 @@
 
 # Circle Mage
 
+## Choose a source variant
+
+CircleMage is one Minecraft magic-mod project with two separately buildable source variants. Do not install both at once: they share the `circlemage` mod ID and target different game/toolchain versions.
+
+| Variant | Source | Declared target |
+|---|---|---|
+| Original Circle Mage | Repository root | Minecraft 1.20.1, Fabric Loader 0.15.11, Fabric API 0.92.2+1.20.1; mod version 2.3.0 |
+| Elemental revamp | [Variant guide](versions/elemental-revamp-mc26.3/README.md) | Minecraft 26.3, loader 0.19.5 and its own Fabric API; version 3.0.0-alpha.2+mc26.3 |
+
+Use Java 17 for the original 1.20.1 project; follow the revamp's own Java/build requirements for its newer target. Run the Gradle wrapper **inside the variant directory you selected**. For the original on Windows:
+
+```powershell
+.\gradlew.bat build
+```
+
+Install the resulting local mod JAR into the matching Fabric instance with its required Fabric API. Match game, loader and API versions to that variant's `gradle.properties`, rather than combining files across variants. Generated JARs and local Minecraft saves are not part of this source snapshot.
+
+The original feature guide follows. The revamp adds its own elemental-tree/selection workflow and retains a separate README. This is unofficial Minecraft modding work, with no Mojang/Microsoft affiliation or endorsement; existing third-party rights remain with their owners.
+
 A Fabric mod for **Minecraft 1.20.1** that adds a channelled mana system, nine "circles" of
 magehood, permanent realm buffs, advancements, and a homing **Magic Missile** spell.
 
@@ -84,3 +103,8 @@ src/main/resources/
 - [Elemental revamp](versions/elemental-revamp-mc26.3/README.md): the separate newer source targets the Minecraft version declared in its own build files (26.3). It retains its own Gradle build and resources.
 
 Build and install one compatible variant at a time. Both use the `circlemage` mod ID and must not be loaded together. The elemental revamp is not a replacement build for the original game version.
+
+
+## Source snapshot and validation
+
+See [BACKUP_NOTES.md](BACKUP_NOTES.md) for the omitted build outputs, local settings, credentials and runtime data. Build generated binaries locally using the instructions above; a source checkout is not an installed application. Earlier validation figures in this guide describe their original development runs. This documentation update checks source references and instructions; it does not claim a fresh application, device or gameplay test.
