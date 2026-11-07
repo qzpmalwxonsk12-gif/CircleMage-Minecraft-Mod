@@ -1,0 +1,13 @@
+{
+  "display": {
+    "icon": { "item": "minecraft:shield" },
+    "title": "Law: Causality",
+    "description": "Every hostile struck you; now their blows return to them.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": { "code_triggered": { "trigger": "minecraft:impossible" } },
+  "requirements": [ [ "code_triggered" ] ]
+}

@@ -1,0 +1,826 @@
+{
+  "verified_utc": "2026-10-06T16:35:53.124436+00:00",
+  "project": "C:\\Users\\Arjun\\MAgicModSource",
+  "baseline_captured_utc": "2026-10-06T16:07:56.544858+00:00",
+  "original_file_count": 1361,
+  "original_bytes": 129883080,
+  "source_resource_file_count": 250,
+  "source_resources_content_and_mtimes_unchanged": true,
+  "root_config_documentation_and_jar_contents_unchanged": true,
+  "all_original_project_files_unchanged": false,
+  "unchanged_original_content_count": 1354,
+  "content_changed_original_count": 7,
+  "content_changed_original_files": [
+    {
+      "path": ".gradle/8.7/checksums/checksums.lock",
+      "before_sha256": "7016bc2731c346dadfe8b15d822756ab675686b723edd735cdf4627f8355af47",
+      "after_sha256": "ad81541432097fc0d8654d91f7c2c60cf965b4d04249e781bbadea733a1726c8",
+      "before_bytes": 17,
+      "after_bytes": 17
+    },
+    {
+      "path": ".gradle/8.7/checksums/md5-checksums.bin",
+      "before_sha256": "b448fa8040efd0200c977fb87af1c873b9a98c983c07e07502d329ade80fb9ff",
+      "after_sha256": "526960d6f97b79ff390dfc1a59516a29a88d5e98fee60435ff89bf6d753d89c4",
+      "before_bytes": 31447,
+      "after_bytes": 34197
+    },
+    {
+      "path": ".gradle/8.7/checksums/sha1-checksums.bin",
+      "before_sha256": "6b186f0ea7013af01bd987acba23499589a616ce391356f1eba97aa5c8c7aa8d",
+      "after_sha256": "d1c133e9d68a5025f916b5daae9f29aa71ca571fdb1ad9cec5aee5209435dc78",
+      "before_bytes": 91553,
+      "after_bytes": 139877
+    },
+    {
+      "path": ".gradle/8.7/fileHashes/fileHashes.bin",
+      "before_sha256": "1fcafe0ea45549edef1c638b1e7dcd3a630ce6015dc2f7519be67f79cfe43188",
+      "after_sha256": "03b063a0d0a4ba6154a3e7d2314c02add78d3e0202c72a9a866552f79f70caf7",
+      "before_bytes": 79115,
+      "after_bytes": 79165
+    },
+    {
+      "path": ".gradle/8.7/fileHashes/fileHashes.lock",
+      "before_sha256": "ae05e93cd1ade1b5376327ff95d352835976d1dd8d201f1faaec8e89a0434f9d",
+      "after_sha256": "afce460581f07eebeb1880cf8179ba349654ca82427df78f76c0365646a7d71b",
+      "before_bytes": 17,
+      "after_bytes": 17
+    },
+    {
+      "path": ".gradle/nb-cache/subprojects.ser",
+      "before_sha256": "ac6780843557c18abdb7451c626eac9df4d83a2e59ab0a9a730420a0e4e43666",
+      "after_sha256": "3db4792bf68868aae446ee48f82f2bbb53195056f1bec8f6a6ab62b9cd2ab6d4",
+      "before_bytes": 694,
+      "after_bytes": 714
+    },
+    {
+      "path": "build/loom-cache/mixin-map-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.main.tiny",
+      "before_sha256": "fe1bbdb20134300fc28f93548babcee71038bdd4add8bc8d590da24d44601a56",
+      "after_sha256": "ce6485357394df9394bfe441d6b64a09f1598e2ac464197f070d14f683a029fe",
+      "before_bytes": 251,
+      "after_bytes": 251
+    }
+  ],
+  "mtime_changed_original_count": 121,
+  "mtime_change_groups": {
+    ".gradle": 12,
+    "bin": 107,
+    "build": 2
+  },
+  "mtime_changed_original_files": [
+    {
+      "path": ".gradle/8.7/gc.properties",
+      "before_mtime_ns": 1783888744363000000,
+      "after_mtime_ns": 1791302923201000000
+    },
+    {
+      "path": ".gradle/8.7/checksums/checksums.lock",
+      "before_mtime_ns": 1783889648107783200,
+      "after_mtime_ns": 1791303211998418500
+    },
+    {
+      "path": ".gradle/8.7/checksums/md5-checksums.bin",
+      "before_mtime_ns": 1781884299079273600,
+      "after_mtime_ns": 1791303009687682500
+    },
+    {
+      "path": ".gradle/8.7/checksums/sha1-checksums.bin",
+      "before_mtime_ns": 1781884869240015000,
+      "after_mtime_ns": 1791303189815270500
+    },
+    {
+      "path": ".gradle/8.7/dependencies-accessors/gc.properties",
+      "before_mtime_ns": 1783888744327000000,
+      "after_mtime_ns": 1791303037992000000
+    },
+    {
+      "path": ".gradle/8.7/executionHistory/executionHistory.lock",
+      "before_mtime_ns": 1783889648002454400,
+      "after_mtime_ns": 1791303206604503300
+    },
+    {
+      "path": ".gradle/8.7/fileChanges/last-build.bin",
+      "before_mtime_ns": 1783889647984407000,
+      "after_mtime_ns": 1791303211934831800
+    },
+    {
+      "path": ".gradle/8.7/fileHashes/fileHashes.bin",
+      "before_mtime_ns": 1783889647755290100,
+      "after_mtime_ns": 1791302928654012800
+    },
+    {
+      "path": ".gradle/8.7/fileHashes/fileHashes.lock",
+      "before_mtime_ns": 1783889648103256900,
+      "after_mtime_ns": 1791303211991317900
+    },
+    {
+      "path": ".gradle/buildOutputCleanup/buildOutputCleanup.lock",
+      "before_mtime_ns": 1783889648007050700,
+      "after_mtime_ns": 1791303211942533200
+    },
+    {
+      "path": ".gradle/nb-cache/subprojects.ser",
+      "before_mtime_ns": 1783888721593963400,
+      "after_mtime_ns": 1791303090141834800
+    },
+    {
+      "path": ".gradle/vcs-1/gc.properties",
+      "before_mtime_ns": 1783888744323000000,
+      "after_mtime_ns": 1791302923141000000
+    },
+    {
+      "path": "bin/main/com/example/circlemage/CircleMageMod.class",
+      "before_mtime_ns": 1783889469749248300,
+      "after_mtime_ns": 1791303169810314000
+    },
+    {
+      "path": "bin/main/com/example/circlemage/block/ArcaneStationBlock.class",
+      "before_mtime_ns": 1783889315748169100,
+      "after_mtime_ns": 1791303169821260700
+    },
+    {
+      "path": "bin/main/com/example/circlemage/block/ArcaneStationScreenHandler$1.class",
+      "before_mtime_ns": 1783889315749145600,
+      "after_mtime_ns": 1791303169922055400
+    },
+    {
+      "path": "bin/main/com/example/circlemage/block/ArcaneStationScreenHandler$2.class",
+      "before_mtime_ns": 1783889315751456000,
+      "after_mtime_ns": 1791303169906769700
+    },
+    {
+      "path": "bin/main/com/example/circlemage/block/ArcaneStationScreenHandler$3.class",
+      "before_mtime_ns": 1783889315751456000,
+      "after_mtime_ns": 1791303169920022800
+    },
+    {
+      "path": "bin/main/com/example/circlemage/block/ArcaneStationScreenHandler$4.class",
+      "before_mtime_ns": 1783889315750453200,
+      "after_mtime_ns": 1791303169904611500
+    },
+    {
+      "path": "bin/main/com/example/circlemage/block/ArcaneStationScreenHandler$5.class",
+      "before_mtime_ns": 1783889315752457800,
+      "after_mtime_ns": 1791303169905594600
+    },
+    {
+      "path": "bin/main/com/example/circlemage/block/ArcaneStationScreenHandler.class",
+      "before_mtime_ns": 1783889315749145600,
+      "after_mtime_ns": 1791303169906769700
+    },
+    {
+      "path": "bin/main/com/example/circlemage/block/ModBlocks.class",
+      "before_mtime_ns": 1783889315762603600,
+      "after_mtime_ns": 1791303169931802700
+    },
+    {
+      "path": "bin/main/com/example/circlemage/boss/BossZone.class",
+      "before_mtime_ns": 1783889315798458200,
+      "after_mtime_ns": 1791303170011459600
+    },
+    {
+      "path": "bin/main/com/example/circlemage/boss/BossZoneManager.class",
+      "before_mtime_ns": 1783889315811912200,
+      "after_mtime_ns": 1791303170039601200
+    },
+    {
+      "path": "bin/main/com/example/circlemage/boss/BossZoneState.class",
+      "before_mtime_ns": 1783889315823612500,
+      "after_mtime_ns": 1791303170092818300
+    },
+    {
+      "path": "bin/main/com/example/circlemage/boss/MeteorRain$Impact.class",
+      "before_mtime_ns": 1783889315853357600,
+      "after_mtime_ns": 1791303170154494100
+    },
+    {
+      "path": "bin/main/com/example/circlemage/boss/MeteorRain.class",
+      "before_mtime_ns": 1783889315853357600,
+      "after_mtime_ns": 1791303170155504200
+    },
+    {
+      "path": "bin/main/com/example/circlemage/client/ArcaneStationScreen.class",
+      "before_mtime_ns": 1783889315862633500,
+      "after_mtime_ns": 1791303170196753500
+    },
+    {
+      "path": "bin/main/com/example/circlemage/client/CastingCircleRenderer.class",
+      "before_mtime_ns": 1783889315896312800,
+      "after_mtime_ns": 1791303170211900000
+    },
+    {
+      "path": "bin/main/com/example/circlemage/client/CircleMageClient.class",
+      "before_mtime_ns": 1783889316032485500,
+      "after_mtime_ns": 1791303170432411300
+    },
+    {
+      "path": "bin/main/com/example/circlemage/client/ClientImpactState.class",
+      "before_mtime_ns": 1783889316041526100,
+      "after_mtime_ns": 1791303170452327500
+    },
+    {
+      "path": "bin/main/com/example/circlemage/client/ClientJournalState.class",
+      "before_mtime_ns": 1783889316048118000,
+      "after_mtime_ns": 1791303170487200500
+    },
+    {
+      "path": "bin/main/com/example/circlemage/client/ClientManaState.class",
+      "before_mtime_ns": 1783889316055369800,
+      "after_mtime_ns": 1791303170484160600
+    },
+    {
+      "path": "bin/main/com/example/circlemage/client/ClientShakeState.class",
+      "before_mtime_ns": 1783889316055369800,
+      "after_mtime_ns": 1791303170484160600
+    },
+    {
+      "path": "bin/main/com/example/circlemage/client/DarkOrbRenderer.class",
+      "before_mtime_ns": 1783889316069967000,
+      "after_mtime_ns": 1791303170533984200
+    },
+    {
+      "path": "bin/main/com/example/circlemage/client/GiveUpScreen.class",
+      "before_mtime_ns": 1783889316097936000,
+      "after_mtime_ns": 1791303170529462700
+    },
+    {
+      "path": "bin/main/com/example/circlemage/client/LawSelectionScreen.class",
+      "before_mtime_ns": 1783889316117932100,
+      "after_mtime_ns": 1791303170546841600
+    },
+    {
+      "path": "bin/main/com/example/circlemage/client/MagicBarrierRenderer.class",
+      "before_mtime_ns": 1783889316131563400,
+      "after_mtime_ns": 1791303170565812800
+    },
+    {
+      "path": "bin/main/com/example/circlemage/client/MagicGlowParticle$Factory.class",
+      "before_mtime_ns": 1783889316149118500,
+      "after_mtime_ns": 1791303170613053100
+    },
+    {
+      "path": "bin/main/com/example/circlemage/client/MagicGlowParticle$Settings.class",
+      "before_mtime_ns": 1783889316149118500,
+      "after_mtime_ns": 1791303170613053100
+    },
+    {
+      "path": "bin/main/com/example/circlemage/client/MagicGlowParticle.class",
+      "before_mtime_ns": 1783889316149118500,
+      "after_mtime_ns": 1791303170613053100
+    },
+    {
+      "path": "bin/main/com/example/circlemage/client/MagicMissileRenderer.class",
+      "before_mtime_ns": 1783889316158339000,
+      "after_mtime_ns": 1791303170629460700
+    },
+    {
+      "path": "bin/main/com/example/circlemage/client/MagicScreen.class",
+      "before_mtime_ns": 1783889316176521600,
+      "after_mtime_ns": 1791303170670093100
+    },
+    {
+      "path": "bin/main/com/example/circlemage/client/ManaHudOverlay.class",
+      "before_mtime_ns": 1783889316194125900,
+      "after_mtime_ns": 1791303170711838300
+    },
+    {
+      "path": "bin/main/com/example/circlemage/client/MasterRenderer.class",
+      "before_mtime_ns": 1783889316204485200,
+      "after_mtime_ns": 1791303170746854300
+    },
+    {
+      "path": "bin/main/com/example/circlemage/client/ModKeybinds.class",
+      "before_mtime_ns": 1783889316237085300,
+      "after_mtime_ns": 1791303170797170000
+    },
+    {
+      "path": "bin/main/com/example/circlemage/client/SpatialRendRenderer.class",
+      "before_mtime_ns": 1783889316246228700,
+      "after_mtime_ns": 1791303170808711400
+    },
+    {
+      "path": "bin/main/com/example/circlemage/client/SpellbookScreen$Bookmark.class",
+      "before_mtime_ns": 1783889530890544900,
+      "after_mtime_ns": 1791303171046413200
+    },
+    {
+      "path": "bin/main/com/example/circlemage/client/SpellbookScreen$Line.class",
+      "before_mtime_ns": 1783889530866079000,
+      "after_mtime_ns": 1791303171046413200
+    },
+    {
+      "path": "bin/main/com/example/circlemage/client/SpellbookScreen$Magic.class",
+      "before_mtime_ns": 1783889530815373800,
+      "after_mtime_ns": 1791303171046413200
+    },
+    {
+      "path": "bin/main/com/example/circlemage/client/SpellbookScreen$View.class",
+      "before_mtime_ns": 1783889530883718700,
+      "after_mtime_ns": 1791303171046413200
+    },
+    {
+      "path": "bin/main/com/example/circlemage/client/SpellbookScreen.class",
+      "before_mtime_ns": 1783889530872153400,
+      "after_mtime_ns": 1791303171047415900
+    },
+    {
+      "path": "bin/main/com/example/circlemage/client/SpellHudOverlay.class",
+      "before_mtime_ns": 1783889316254827800,
+      "after_mtime_ns": 1791303170823961800
+    },
+    {
+      "path": "bin/main/com/example/circlemage/client/SpellSelectorState.class",
+      "before_mtime_ns": 1783889316271955200,
+      "after_mtime_ns": 1791303170846031100
+    },
+    {
+      "path": "bin/main/com/example/circlemage/client/TutorialBookRenderer.class",
+      "before_mtime_ns": 1783889316382164100,
+      "after_mtime_ns": 1791303171059462000
+    },
+    {
+      "path": "bin/main/com/example/circlemage/client/WanderingMageRenderer.class",
+      "before_mtime_ns": 1783889316395630600,
+      "after_mtime_ns": 1791303171076258100
+    },
+    {
+      "path": "bin/main/com/example/circlemage/client/WindBladeRenderer.class",
+      "before_mtime_ns": 1783889316400259900,
+      "after_mtime_ns": 1791303171090722200
+    },
+    {
+      "path": "bin/main/com/example/circlemage/command/BossMagicCommands.class",
+      "before_mtime_ns": 1783889316454014800,
+      "after_mtime_ns": 1791303171168806600
+    },
+    {
+      "path": "bin/main/com/example/circlemage/command/ModCommands.class",
+      "before_mtime_ns": 1783889316498792100,
+      "after_mtime_ns": 1791303171210535600
+    },
+    {
+      "path": "bin/main/com/example/circlemage/entity/DarkOrbEntity.class",
+      "before_mtime_ns": 1783889316630329900,
+      "after_mtime_ns": 1791303171408066700
+    },
+    {
+      "path": "bin/main/com/example/circlemage/entity/MageIdleChannelGoal.class",
+      "before_mtime_ns": 1783889316644763300,
+      "after_mtime_ns": 1791303171440736200
+    },
+    {
+      "path": "bin/main/com/example/circlemage/entity/MagicBarrierEntity.class",
+      "before_mtime_ns": 1783889316716573300,
+      "after_mtime_ns": 1791303171837895000
+    },
+    {
+      "path": "bin/main/com/example/circlemage/entity/MagicMissileEntity.class",
+      "before_mtime_ns": 1783889316759313200,
+      "after_mtime_ns": 1791303171847462800
+    },
+    {
+      "path": "bin/main/com/example/circlemage/entity/MasterEntity.class",
+      "before_mtime_ns": 1783889316846718900,
+      "after_mtime_ns": 1791303171865137100
+    },
+    {
+      "path": "bin/main/com/example/circlemage/entity/ModEntities.class",
+      "before_mtime_ns": 1783889316854290700,
+      "after_mtime_ns": 1791303171875446300
+    },
+    {
+      "path": "bin/main/com/example/circlemage/entity/SpatialRendEntity.class",
+      "before_mtime_ns": 1783889316868522100,
+      "after_mtime_ns": 1791303171904592100
+    },
+    {
+      "path": "bin/main/com/example/circlemage/entity/TutorialBookEntity.class",
+      "before_mtime_ns": 1783889316882089300,
+      "after_mtime_ns": 1791303171931782100
+    },
+    {
+      "path": "bin/main/com/example/circlemage/entity/WanderingMageCombatGoal.class",
+      "before_mtime_ns": 1783889316892670500,
+      "after_mtime_ns": 1791303171949076600
+    },
+    {
+      "path": "bin/main/com/example/circlemage/entity/WanderingMageEntity.class",
+      "before_mtime_ns": 1783889411547116700,
+      "after_mtime_ns": 1791303172104009000
+    },
+    {
+      "path": "bin/main/com/example/circlemage/entity/WindBladeEntity.class",
+      "before_mtime_ns": 1783889316986738400,
+      "after_mtime_ns": 1791303172116106500
+    },
+    {
+      "path": "bin/main/com/example/circlemage/item/ArcaneFocusItem.class",
+      "before_mtime_ns": 1783889316993464600,
+      "after_mtime_ns": 1791303172129326600
+    },
+    {
+      "path": "bin/main/com/example/circlemage/item/ArcaneStringItem.class",
+      "before_mtime_ns": 1783889316998463900,
+      "after_mtime_ns": 1791303172137841200
+    },
+    {
+      "path": "bin/main/com/example/circlemage/item/FragmentOfLawItem.class",
+      "before_mtime_ns": 1783889317004129900,
+      "after_mtime_ns": 1791303172145866900
+    },
+    {
+      "path": "bin/main/com/example/circlemage/item/MageRobeItem.class",
+      "before_mtime_ns": 1783889317010154200,
+      "after_mtime_ns": 1791303172154332900
+    },
+    {
+      "path": "bin/main/com/example/circlemage/item/MagicTomeItem$Element.class",
+      "before_mtime_ns": 1783889317019224700,
+      "after_mtime_ns": 1791303172174553900
+    },
+    {
+      "path": "bin/main/com/example/circlemage/item/MagicTomeItem.class",
+      "before_mtime_ns": 1783889317019224700,
+      "after_mtime_ns": 1791303172174553900
+    },
+    {
+      "path": "bin/main/com/example/circlemage/item/ManaCrystalItem.class",
+      "before_mtime_ns": 1783889317028803500,
+      "after_mtime_ns": 1791303172185242600
+    },
+    {
+      "path": "bin/main/com/example/circlemage/item/ManaInfusion.class",
+      "before_mtime_ns": 1783889317033801200,
+      "after_mtime_ns": 1791303172194789600
+    },
+    {
+      "path": "bin/main/com/example/circlemage/item/ManaVialItem.class",
+      "before_mtime_ns": 1783889317039684900,
+      "after_mtime_ns": 1791303172209448000
+    },
+    {
+      "path": "bin/main/com/example/circlemage/item/ModItems.class",
+      "before_mtime_ns": 1783889317048182500,
+      "after_mtime_ns": 1791303172219005400
+    },
+    {
+      "path": "bin/main/com/example/circlemage/item/RobeArmorMaterial.class",
+      "before_mtime_ns": 1783889317054179700,
+      "after_mtime_ns": 1791303172226570600
+    },
+    {
+      "path": "bin/main/com/example/circlemage/item/WandItem$School.class",
+      "before_mtime_ns": 1783889317081616000,
+      "after_mtime_ns": 1791303172269542900
+    },
+    {
+      "path": "bin/main/com/example/circlemage/item/WandItem$WandCore.class",
+      "before_mtime_ns": 1783889317081616000,
+      "after_mtime_ns": 1791303172269542900
+    },
+    {
+      "path": "bin/main/com/example/circlemage/item/WandItem$WandCrystal.class",
+      "before_mtime_ns": 1783889317081616000,
+      "after_mtime_ns": 1791303172269542900
+    },
+    {
+      "path": "bin/main/com/example/circlemage/item/WandItem$WandMaterial.class",
+      "before_mtime_ns": 1783889317081616000,
+      "after_mtime_ns": 1791303172269542900
+    },
+    {
+      "path": "bin/main/com/example/circlemage/item/WandItem.class",
+      "before_mtime_ns": 1783889317081616000,
+      "after_mtime_ns": 1791303172269542900
+    },
+    {
+      "path": "bin/main/com/example/circlemage/mana/Circles.class",
+      "before_mtime_ns": 1783889317087838300,
+      "after_mtime_ns": 1791303172279952300
+    },
+    {
+      "path": "bin/main/com/example/circlemage/mana/ManaData.class",
+      "before_mtime_ns": 1783889317108367000,
+      "after_mtime_ns": 1791303172324338600
+    },
+    {
+      "path": "bin/main/com/example/circlemage/mana/ManaPlayer.class",
+      "before_mtime_ns": 1783889317114933300,
+      "after_mtime_ns": 1791303172337293500
+    },
+    {
+      "path": "bin/main/com/example/circlemage/mana/StorageInventory.class",
+      "before_mtime_ns": 1783889317120171100,
+      "after_mtime_ns": 1791303172337293500
+    },
+    {
+      "path": "bin/main/com/example/circlemage/mixin/CameraMixin.class",
+      "before_mtime_ns": 1783889317120171100,
+      "after_mtime_ns": 1791303172337293500
+    },
+    {
+      "path": "bin/main/com/example/circlemage/mixin/ClientPlayerFovMixin.class",
+      "before_mtime_ns": 1783889317127203600,
+      "after_mtime_ns": 1791303172349887700
+    },
+    {
+      "path": "bin/main/com/example/circlemage/mixin/GameRendererAccessor.class",
+      "before_mtime_ns": 1783889317127203600,
+      "after_mtime_ns": 1791303172350886000
+    },
+    {
+      "path": "bin/main/com/example/circlemage/mixin/LivingEntityMixin.class",
+      "before_mtime_ns": 1783889317136260600,
+      "after_mtime_ns": 1791303172371429500
+    },
+    {
+      "path": "bin/main/com/example/circlemage/mixin/MouseScrollMixin.class",
+      "before_mtime_ns": 1783889317142109400,
+      "after_mtime_ns": 1791303172380388200
+    },
+    {
+      "path": "bin/main/com/example/circlemage/mixin/PlayerEntityMixin.class",
+      "before_mtime_ns": 1783889317146622300,
+      "after_mtime_ns": 1791303172380388200
+    },
+    {
+      "path": "bin/main/com/example/circlemage/network/ModNetworking.class",
+      "before_mtime_ns": 1783889317155297600,
+      "after_mtime_ns": 1791303172396285000
+    },
+    {
+      "path": "bin/main/com/example/circlemage/particle/ModParticles.class",
+      "before_mtime_ns": 1783889317163839600,
+      "after_mtime_ns": 1791303172402612900
+    },
+    {
+      "path": "bin/main/com/example/circlemage/spell/AreaEffect$Type.class",
+      "before_mtime_ns": 1783889317181449300,
+      "after_mtime_ns": 1791303172415687700
+    },
+    {
+      "path": "bin/main/com/example/circlemage/spell/AreaEffect.class",
+      "before_mtime_ns": 1783889317181449300,
+      "after_mtime_ns": 1791303172417167800
+    },
+    {
+      "path": "bin/main/com/example/circlemage/spell/AreaEffectManager.class",
+      "before_mtime_ns": 1783889317189064600,
+      "after_mtime_ns": 1791303172424146000
+    },
+    {
+      "path": "bin/main/com/example/circlemage/spell/ArrayType.class",
+      "before_mtime_ns": 1783889317195633000,
+      "after_mtime_ns": 1791303172437722100
+    },
+    {
+      "path": "bin/main/com/example/circlemage/spell/Combinations$Blaze.class",
+      "before_mtime_ns": 1783889317279824700,
+      "after_mtime_ns": 1791303172508459000
+    },
+    {
+      "path": "bin/main/com/example/circlemage/spell/Combinations$ChainLightning.class",
+      "before_mtime_ns": 1783889317280851900,
+      "after_mtime_ns": 1791303172503036700
+    },
+    {
+      "path": "bin/main/com/example/circlemage/spell/Combinations$ChaosSpear.class",
+      "before_mtime_ns": 1783889317281853200,
+      "after_mtime_ns": 1791303172508459000
+    },
+    {
+      "path": "bin/main/com/example/circlemage/spell/Combinations$DivineWrath.class",
+      "before_mtime_ns": 1783889317281853200,
+      "after_mtime_ns": 1791303172503036700
+    },
+    {
+      "path": "bin/main/com/example/circlemage/spell/Combinations$FireEscape.class",
+      "before_mtime_ns": 1783889317280851900,
+      "after_mtime_ns": 1791303172500393100
+    },
+    {
+      "path": "bin/main/com/example/circlemage/spell/Combinations$ThunderMark.class",
+      "before_mtime_ns": 1783889317281853200,
+      "after_mtime_ns": 1791303172504057800
+    },
+    {
+      "path": "bin/main/com/example/circlemage/spell/Combinations$ThunderWarp.class",
+      "before_mtime_ns": 1783889317280851900,
+      "after_mtime_ns": 1791303172502019100
+    },
+    {
+      "path": "bin/main/com/example/circlemage/spell/Combinations.class",
+      "before_mtime_ns": 1783889317280851900,
+      "after_mtime_ns": 1791303172503036700
+    },
+    {
+      "path": "bin/main/com/example/circlemage/spell/CombinationSpell.class",
+      "before_mtime_ns": 1783889317206748000,
+      "after_mtime_ns": 1791303172441075600
+    },
+    {
+      "path": "bin/main/com/example/circlemage/spell/Law.class",
+      "before_mtime_ns": 1783889317296455200,
+      "after_mtime_ns": 1791303172514112900
+    },
+    {
+      "path": "bin/main/com/example/circlemage/spell/LawUnlocks.class",
+      "before_mtime_ns": 1783889317318105600,
+      "after_mtime_ns": 1791303172527026800
+    },
+    {
+      "path": "bin/main/com/example/circlemage/spell/MagicArray.class",
+      "before_mtime_ns": 1783889317340488500,
+      "after_mtime_ns": 1791303172553862800
+    },
+    {
+      "path": "bin/main/com/example/circlemage/spell/MagicArrayManager.class",
+      "before_mtime_ns": 1783889317351111200,
+      "after_mtime_ns": 1791303172562219800
+    },
+    {
+      "path": "bin/main/com/example/circlemage/spell/MagicResistance.class",
+      "before_mtime_ns": 1783889317361706000,
+      "after_mtime_ns": 1791303172570906600
+    },
+    {
+      "path": "bin/main/com/example/circlemage/spell/PassiveChant.class",
+      "before_mtime_ns": 1783889317361706000,
+      "after_mtime_ns": 1791303172570906600
+    },
+    {
+      "path": "bin/main/com/example/circlemage/spell/Spell.class",
+      "before_mtime_ns": 1783889317370295400,
+      "after_mtime_ns": 1791303172576428600
+    },
+    {
+      "path": "bin/main/com/example/circlemage/world/MageTowers.class",
+      "before_mtime_ns": 1783889456190654900,
+      "after_mtime_ns": 1791303172606881100
+    },
+    {
+      "path": "bin/main/com/example/circlemage/world/WorldProgressState.class",
+      "before_mtime_ns": 1783889318931918700,
+      "after_mtime_ns": 1791303172619485100
+    },
+    {
+      "path": "build/classes/java/main/circlemage-refmap.json",
+      "before_mtime_ns": 1783889599652459700,
+      "after_mtime_ns": 1791303168333972800
+    },
+    {
+      "path": "build/loom-cache/mixin-map-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.main.tiny",
+      "before_mtime_ns": 1783889599657974100,
+      "after_mtime_ns": 1791303168344089800
+    }
+  ],
+  "missing_original_files": [],
+  "read_errors": [],
+  "new_files_outside_review_folder": [
+    ".gradle/nb-cache/MAgicModSource-1162683699/project-info.ser"
+  ],
+  "background_tooling_note": "No Gradle/build command was invoked by the review. Running Java language/editor services and a child Gradle daemon were observed. Cache/generated changes are consistent with background project tooling, but file comparisons alone cannot identify the writer. No changed cache was restored or edited by the review.",
+  "java_files_catalogued": 82,
+  "source_lines": 14781,
+  "resource_json_parsed": 90,
+  "recipe_files": 13,
+  "advancements": 15,
+  "tower_templates": 4,
+  "tower_biomes": 16,
+  "markdown_links_checked": 123,
+  "broken_markdown_links": [],
+  "markdown": [
+    {
+      "document": "NPC_BOSS_REVIEW.md",
+      "lines": 186,
+      "words": 3210,
+      "utf8": true,
+      "balanced_code_fences": true
+    },
+    {
+      "document": "PLAYER_GUIDE.md",
+      "lines": 370,
+      "words": 5241,
+      "utf8": true,
+      "balanced_code_fences": true
+    },
+    {
+      "document": "PROJECT_MAP.md",
+      "lines": 160,
+      "words": 1881,
+      "utf8": true,
+      "balanced_code_fences": true
+    },
+    {
+      "document": "README.md",
+      "lines": 30,
+      "words": 412,
+      "utf8": true,
+      "balanced_code_fences": true
+    },
+    {
+      "document": "WORLD_NOTES.md",
+      "lines": 69,
+      "words": 1086,
+      "utf8": true,
+      "balanced_code_fences": true
+    }
+  ],
+  "spell_metadata_checked": [
+    {
+      "name": "MAGIC_MISSILE",
+      "id": 0,
+      "mana": 50,
+      "cooldown_ticks": 20,
+      "cast_ticks": 0
+    },
+    {
+      "name": "FIREBALL",
+      "id": 1,
+      "mana": 300,
+      "cooldown_ticks": 140,
+      "cast_ticks": 0
+    },
+    {
+      "name": "AREA_SLOW",
+      "id": 2,
+      "mana": 500,
+      "cooldown_ticks": 100,
+      "cast_ticks": 15
+    },
+    {
+      "name": "CLEAR_MAGIC",
+      "id": 3,
+      "mana": 750,
+      "cooldown_ticks": 200,
+      "cast_ticks": 0
+    },
+    {
+      "name": "WALL_OF_WIND",
+      "id": 4,
+      "mana": 200,
+      "cooldown_ticks": 60,
+      "cast_ticks": 0
+    },
+    {
+      "name": "THUNDER",
+      "id": 5,
+      "mana": 500,
+      "cooldown_ticks": 100,
+      "cast_ticks": 15
+    },
+    {
+      "name": "BARRIER",
+      "id": 6,
+      "mana": 750,
+      "cooldown_ticks": 160,
+      "cast_ticks": 30
+    },
+    {
+      "name": "SPEAR_OF_LIGHT",
+      "id": 7,
+      "mana": 75,
+      "cooldown_ticks": 20,
+      "cast_ticks": 0
+    },
+    {
+      "name": "DARK_ORB",
+      "id": 8,
+      "mana": 600,
+      "cooldown_ticks": 120,
+      "cast_ticks": 0
+    },
+    {
+      "name": "DASH",
+      "id": 9,
+      "mana": 100,
+      "cooldown_ticks": 40,
+      "cast_ticks": 0
+    },
+    {
+      "name": "WIND_BLADE",
+      "id": 10,
+      "mana": 150,
+      "cooldown_ticks": 60,
+      "cast_ticks": 0
+    },
+    {
+      "name": "FIRE_BOLT",
+      "id": 11,
+      "mana": 100,
+      "cooldown_ticks": 40,
+      "cast_ticks": 0
+    }
+  ],
+  "built_and_installed_jars_match": true,
+  "jar_sha256": "40843214fcc438d05ba28216e75e2aae5d7a438b4da68e521762af6b843890ee",
+  "built_jar_crc_test": "passed",
+  "validation_scope": "Static source/metadata and documentation checks. Existing saved-world snapshot reported 19 worlds and zero read/parse errors. No agent-invoked compilation, game command, playtest or performance benchmark.",
+  "documents_created": [
+    "README.md",
+    "PLAYER_GUIDE.md",
+    "NPC_BOSS_REVIEW.md",
+    "PROJECT_MAP.md",
+    "WORLD_NOTES.md"
+  ]
+}

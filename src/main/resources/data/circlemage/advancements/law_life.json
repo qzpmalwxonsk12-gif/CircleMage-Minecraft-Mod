@@ -1,0 +1,13 @@
+{
+  "display": {
+    "icon": { "item": "minecraft:totem_of_undying" },
+    "title": "Law: Life",
+    "description": "Death came for you five times. The fifth, you refused it.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": { "code_triggered": { "trigger": "minecraft:impossible" } },
+  "requirements": [ [ "code_triggered" ] ]
+}

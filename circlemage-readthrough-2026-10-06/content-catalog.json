@@ -1,0 +1,1047 @@
+{
+  "generated_utc": "2026-10-06T16:29:52.605747+00:00",
+  "project": "C:\\Users\\Arjun\\MAgicModSource",
+  "version": "2.3.0",
+  "minecraft": "1.20.1",
+  "java_file_count": 82,
+  "java_line_count": 14781,
+  "java": [
+    {
+      "path": "src/main/java/com/example/circlemage/block/ArcaneStationBlock.java",
+      "class": "ArcaneStationBlock",
+      "lines": 38,
+      "sha256": "4f72f1af7c717028889c4a6c971c2c17fdd96a0e5675623da443abb982e0743b",
+      "role": "Station placement/use and screen-handler opening."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/block/ArcaneStationScreenHandler.java",
+      "class": "ArcaneStationScreenHandler",
+      "lines": 191,
+      "sha256": "c91acbde593090f259abbb8bb55a616aa5336229932b0ad2332561a91bdac92d",
+      "role": "Component slot validation, wand preview/output, consumption and input return."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/block/ModBlocks.java",
+      "class": "ModBlocks",
+      "lines": 42,
+      "sha256": "35eeb2580d040832d0008827723527f04615835b306ab60eb7fa0fafdace9297",
+      "role": "Arcane Station block/item and screen-handler registration."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/boss/BossZone.java",
+      "class": "BossZone",
+      "lines": 314,
+      "sha256": "65f66b75c8893697605ae22bed5a0a930815f8326a23b9cfc3ccf3b1fe4f30e4",
+      "role": "Arena sphere, membership/containment, restrictions, meteor state, rendering particles and serialization."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/boss/BossZoneManager.java",
+      "class": "BossZoneManager",
+      "lines": 123,
+      "sha256": "2edd8207dc32f36bcb1d2b0bf23fd768552fedf2f2c2ed7d600c9a34dd89ef34",
+      "role": "Active-zone registry, lookup, overlap checks, lifecycle/load/save and ticking."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/boss/BossZoneState.java",
+      "class": "BossZoneState",
+      "lines": 51,
+      "sha256": "919d9054b8f63851a1214140e847a6aaee53f36c5efade2afc6154a0956218cf",
+      "role": "Persistent boss-zone definitions in world data."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/boss/MeteorRain.java",
+      "class": "MeteorRain",
+      "lines": 196,
+      "sha256": "5b042c96aee9bce1d25ebd4b84f8add3ea0995ea0bd7adb3b90344c3a39f4e25",
+      "role": "Pending meteor warnings, rate/cap logic, particles, impact damage and temporary fire."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/CircleMageMod.java",
+      "class": "CircleMageMod",
+      "lines": 2074,
+      "sha256": "637ad9909423249db96f8b0092ebece1989a41b58fe09fb2d35e1563db9383ad",
+      "role": "Server entry point: registration, packets, player ticks, progression, casting, chants, Laws, infusion, intro and equipment effects."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/client/ArcaneStationScreen.java",
+      "class": "ArcaneStationScreen",
+      "lines": 37,
+      "sha256": "bf6cbb40dddf8142f04f15d61e6c3abcc4dcd5c7227cd20a8159b05ad3171aa5",
+      "role": "Client station layout, input/output labels and wand assembly UI."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/client/CastingCircleRenderer.java",
+      "class": "CastingCircleRenderer",
+      "lines": 138,
+      "sha256": "368cf110cded530ed3de94f126c61db3375e5cd41a148eefff7e468040459061",
+      "role": "Telegraphed casting circles for mage/boss spell commitments."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/client/CircleMageClient.java",
+      "class": "CircleMageClient",
+      "lines": 244,
+      "sha256": "d75ee8e88698e5505cc5aa6707ef3039ec63914308bd054bd5296eaa1542760f",
+      "role": "Client registrations, networking, HUD/renderers, item colors and model predicates."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/client/ClientImpactState.java",
+      "class": "ClientImpactState",
+      "lines": 59,
+      "sha256": "7d165e0d56a2b7592c746a8aaebdd7fd4d54705340e30523f4d3000d398f3b76",
+      "role": "Impact-frame timing and visual state."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/client/ClientJournalState.java",
+      "class": "ClientJournalState",
+      "lines": 50,
+      "sha256": "bc1a2abf6ee9d6620b67c648db39fec1e72932db4f40c85b231ef9a49d50bb80",
+      "role": "Client snapshot of encounter and boss progression for journal pages."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/client/ClientManaState.java",
+      "class": "ClientManaState",
+      "lines": 77,
+      "sha256": "2eaa0b937ba4af390a8c95f3b42fe77a7df2643354fdcd1126877a4804993a23",
+      "role": "Client mirror of mana/circle/discovery/chant/Law state."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/client/ClientShakeState.java",
+      "class": "ClientShakeState",
+      "lines": 40,
+      "sha256": "032f582ed6f2321d21714f79aafe6d9cbba3f94d00f09041f3bf48303068d4f9",
+      "role": "Timed camera shake state."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/client/DarkOrbRenderer.java",
+      "class": "DarkOrbRenderer",
+      "lines": 95,
+      "sha256": "266d48242b21ad176f2018a410c3c640c53957f963e34eca9893755ed34d4bf4",
+      "role": "Floating/thrown orb and cataclysm rendering."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/client/GiveUpScreen.java",
+      "class": "GiveUpScreen",
+      "lines": 44,
+      "sha256": "4fcfe0a1c1ab783a6732e09833ef60665f5fef852ec946903b9eeafdbae42a19",
+      "role": "Hardcore Law-of-Life revival dialogue screen."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/client/LawSelectionScreen.java",
+      "class": "LawSelectionScreen",
+      "lines": 91,
+      "sha256": "9c852514fa0ad93f3fb28306799e735a56ece5f8c9efaff1207e8ad0d22213d3",
+      "role": "Unlocked-Law selection and Storage opening UI."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/client/MagicBarrierRenderer.java",
+      "class": "MagicBarrierRenderer",
+      "lines": 167,
+      "sha256": "0e6eba9f3beacb28a04a3f6c0ab86ce6af13dc78f0e4a9cfe895ebf4b98c9c13",
+      "role": "Barrier wall/dome geometry and appearance."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/client/MagicGlowParticle.java",
+      "class": "MagicGlowParticle",
+      "lines": 108,
+      "sha256": "d5d4970358ca09e467b675ae57b6f8211b6adc8b17c68bc1c527fc7a085e1f2f",
+      "role": "Custom glowing particle implementation."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/client/MagicMissileRenderer.java",
+      "class": "MagicMissileRenderer",
+      "lines": 155,
+      "sha256": "46db05dce813f1beaa1c8394244347afa89633c3306a77450c6c919a8b9f1521",
+      "role": "Missile/Spear/Fireball projectile appearance."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/client/MagicScreen.java",
+      "class": "MagicScreen",
+      "lines": 154,
+      "sha256": "967a7772a9809bbd5fb5247a02b6706fee9c4d61c939b893de8e143ee9aff234",
+      "role": "Spell form, passive chant and array selection UI."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/client/ManaHudOverlay.java",
+      "class": "ManaHudOverlay",
+      "lines": 104,
+      "sha256": "7bd65d64be367c278fbc424732b278d756cf7d000e87d1e1ff6164a08ad182ba",
+      "role": "Mana meter, circle and regeneration HUD."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/client/MasterRenderer.java",
+      "class": "MasterRenderer",
+      "lines": 37,
+      "sha256": "5b927cb443d4dfa73db7da2e481465925789d450ee7331c8519748c192adf539",
+      "role": "Master model/texture and boss rendering."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/client/ModKeybinds.java",
+      "class": "ModKeybinds",
+      "lines": 434,
+      "sha256": "4fbfa37832a0c81101ae6da20b14eb5b547339afa6bee3eaf22fe67f3b82cf8e",
+      "role": "Bindings, selector casting, charging/combining, Anti Magic hold and carving controls."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/client/SpatialRendRenderer.java",
+      "class": "SpatialRendRenderer",
+      "lines": 83,
+      "sha256": "94f709f268c8fe718947df9b656b340f4c38595ae3b19f744d88275a88e36dfb",
+      "role": "Space-cutting projectile rendering."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/client/SpellbookScreen.java",
+      "class": "SpellbookScreen",
+      "lines": 775,
+      "sha256": "63a4b438764edfb47789d1b61d6fa2f8ad7952e6b29c5da15cfa1d62b5378500",
+      "role": "Progress-gated journal, reference pages and NPC/boss lore."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/client/SpellHudOverlay.java",
+      "class": "SpellHudOverlay",
+      "lines": 101,
+      "sha256": "5d6a594fa888f6a1f9d06eb528abac828d84f4e7a8278769842d5f29d041b00b",
+      "role": "Spell selector, spell icons and charge/cooldown feedback."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/client/SpellSelectorState.java",
+      "class": "SpellSelectorState",
+      "lines": 148,
+      "sha256": "a3387b828a72d4c0fed8eea93a73f419bcb95aa7e7bd685938182b89de8d93c0",
+      "role": "Client selected spell and known-spell cycling."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/client/TutorialBookRenderer.java",
+      "class": "TutorialBookRenderer",
+      "lines": 66,
+      "sha256": "547549f19491ec0ee2f41a30359ff7724262f1aba098f6e160072a3eb0550828",
+      "role": "Intro book rendering and animation."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/client/WanderingMageRenderer.java",
+      "class": "WanderingMageRenderer",
+      "lines": 117,
+      "sha256": "eaf9e18422ea33ef158b62aa6a58cd5e6bc0302a9f9771c2968c820af4a448a2",
+      "role": "NPC textures by circle/Prodigy and casting appearance."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/client/WindBladeRenderer.java",
+      "class": "WindBladeRenderer",
+      "lines": 24,
+      "sha256": "dbbc7eaf3d6b76579352b54975ab00e406f88bcdfb29bb2257ac5bbb153b6d35",
+      "role": "Slicing-wind projectile rendering."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/command/BossMagicCommands.java",
+      "class": "BossMagicCommands",
+      "lines": 217,
+      "sha256": "36953956f44fdc5e49de8dced48d25bcf3a4ef4598b81246e02327000142d814",
+      "role": "Operator domains, meteor/rate/restriction controls and Master summoning."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/command/ModCommands.java",
+      "class": "ModCommands",
+      "lines": 228,
+      "sha256": "a8f344f0eb6c4fce1e9e1fee5af50d2e59c43fe01ae9c04e1a28b45594f2fb7a",
+      "role": "Operator progression/testing commands, mage spawning and player Law of Creation command."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/entity/DarkOrbEntity.java",
+      "class": "DarkOrbEntity",
+      "lines": 784,
+      "sha256": "d2876eeaa897ae006ebfe28fc2f9474feb7893ef5284178b7534b8cd89471ef2",
+      "role": "Orb movement/fields, spear absorption, staged cataclysm, terrain explosion and aftermath."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/entity/MageIdleChannelGoal.java",
+      "class": "MageIdleChannelGoal",
+      "lines": 61,
+      "sha256": "ea0622287a5bdc586abf9b60d65c1cc9d1839a33d0d51cdf05ca77dbc8a5dc54",
+      "role": "Idle NPC channeling animation; cosmetic, without an NPC mana budget."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/entity/MagicBarrierEntity.java",
+      "class": "MagicBarrierEntity",
+      "lines": 331,
+      "sha256": "5246d96c6bc82a943ac157205024f89b71d6f3d7d9f42c4fd7df979e41ce94bd",
+      "role": "Wall/dome lifetime, collision, protection and dome hit tracking."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/entity/MagicMissileEntity.java",
+      "class": "MagicMissileEntity",
+      "lines": 398,
+      "sha256": "caeed875ea80599ce32ebe4862b920033aa494635aa91f5a6adff9b20ff168a3",
+      "role": "Light/Spear/chaos/fire projectile movement, homing, damage and robe mitigation."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/entity/MasterEntity.java",
+      "class": "MasterEntity",
+      "lines": 957,
+      "sha256": "9fc0bee0a4d73a43a23e1126e32d8df1bb08f9f4c450e1177a21f41a67781e60",
+      "role": "Master engagement, phase/attack logic, movement, resistance, reset, finale, reward and NBT."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/entity/ModEntities.java",
+      "class": "ModEntities",
+      "lines": 100,
+      "sha256": "f6073d0247492d10c388f983b9e0bc77b44c54419b139a5fe4064ef8d86cd122",
+      "role": "Eight entity type registrations and dimensions/tracking settings."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/entity/SpatialRendEntity.java",
+      "class": "SpatialRendEntity",
+      "lines": 115,
+      "sha256": "a538863f89fe200afa3fa2e89214d5e171729a850fe5ec7ef71fa49d0d21cf20",
+      "role": "Spatial Rend sweep, direct destructible-block removal and high magic damage."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/entity/TutorialBookEntity.java",
+      "class": "TutorialBookEntity",
+      "lines": 186,
+      "sha256": "672949b71d882e0a4d959bad278108a6d7dbff396264ff895c4824a05f38211b",
+      "role": "Fresh-player book interaction, absorption animation and intro completion."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/entity/WanderingMageCombatGoal.java",
+      "class": "WanderingMageCombatGoal",
+      "lines": 157,
+      "sha256": "187e6a505b1235f4fa38d62dd51c5d65b26b2e6246e2b369ae9bf6ed6aa03095",
+      "role": "NPC range decisions, evasion priority and combat navigation/strafe behavior."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/entity/WanderingMageEntity.java",
+      "class": "WanderingMageEntity",
+      "lines": 830,
+      "sha256": "5dafb996c28161293ec61dfdd89b2c1483355e121fb2dfdca8943f60cbf8e575",
+      "role": "Mage variants, spawning, identity, dialogue/trade, guard/surrender, spells, drops and NBT."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/entity/WindBladeEntity.java",
+      "class": "WindBladeEntity",
+      "lines": 139,
+      "sha256": "040fa187bcc1459f2f8fb6a21c884b1fb7f7337cc3d765a33bd7e1be7ef2a358",
+      "role": "Wind Blade projectile collisions, damage and knockback."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/item/ArcaneFocusItem.java",
+      "class": "ArcaneFocusItem",
+      "lines": 54,
+      "sha256": "adf8e5122aab92390dbb85fda8945ff1bfbb721d46e2c57a3dde607084566ea2",
+      "role": "Held cost/damage modifiers and right-click channel toggle."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/item/ArcaneStringItem.java",
+      "class": "ArcaneStringItem",
+      "lines": 20,
+      "sha256": "a3ae5348fea454ebb38013217b8b61d53088f8973475a255dc9a9a3e1c3d7e77",
+      "role": "Arcane String item behavior/description."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/item/FragmentOfLawItem.java",
+      "class": "FragmentOfLawItem",
+      "lines": 33,
+      "sha256": "33d5a4074abcdbad8db51e57169ea1ee9e46b00f0d6d8089cf1bcb796ff558cf",
+      "role": "Glinting Master reward and tooltip; no implemented use."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/item/MageRobeItem.java",
+      "class": "MageRobeItem",
+      "lines": 34,
+      "sha256": "6f3ae5875f81f33a4e0a7a87ef3a6d371bb8f755d147a31cb3061dea6c3dc37d",
+      "role": "Robe chestplate item and magic-projectile mitigation percentage."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/item/MagicTomeItem.java",
+      "class": "MagicTomeItem",
+      "lines": 125,
+      "sha256": "659b4ffd500aa134e0f36d4222f8d6837f9c96428be667494275bdaa02278b40",
+      "role": "School pools, random unknown spell learning, item use and empty-school behavior."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/item/ManaCrystalItem.java",
+      "class": "ManaCrystalItem",
+      "lines": 63,
+      "sha256": "aab1e216a9aadee0de32ac24fd714f4bf56c7bc675958645709a75a2d75247f8",
+      "role": "Permanent crystal attunement, cap and feedback."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/item/ManaInfusion.java",
+      "class": "ManaInfusion",
+      "lines": 33,
+      "sha256": "5695e40ce42e0a59cad36565fd32b34da788a613637167f87428a4a220e1519e",
+      "role": "Item-to-arcane conversion recipe registry."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/item/ManaVialItem.java",
+      "class": "ManaVialItem",
+      "lines": 94,
+      "sha256": "353ca10b94d42035e957ec02074cb9ccca071fa7427d1f643bb02ad1b32398e1",
+      "role": "Timed drinking, mana restoration, cap and bottle return."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/item/ModItems.java",
+      "class": "ModItems",
+      "lines": 131,
+      "sha256": "7419c43d876fe226ee4b6c64c4afae60d1a6b0071c7f8051abbefe1dd5ef3860",
+      "role": "Items, five tome schools, four robes, creative tab and string infusion registration."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/item/RobeArmorMaterial.java",
+      "class": "RobeArmorMaterial",
+      "lines": 65,
+      "sha256": "4011fcec3661cc06b592bc4a83ecb6385b5c42071a7df0ec09c295723d34e18f",
+      "role": "Robe armor durability/protection/repair material metadata."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/item/WandItem.java",
+      "class": "WandItem",
+      "lines": 332,
+      "sha256": "27a7c5c507533116e2fa89e17843680b8bb8d07ad43eb96ad2128efd64dbbdf3",
+      "role": "Wand component NBT, ingredient mappings, school bonuses, colors and tooltips."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/mana/Circles.java",
+      "class": "Circles",
+      "lines": 38,
+      "sha256": "4190cadb80c2ee85ec97e9b683fe2aa39ab6e07b36a0413549838dea0e9d1d5a",
+      "role": "Nine circle thresholds; ten-billion final threshold and basic gate metadata."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/mana/ManaData.java",
+      "class": "ManaData",
+      "lines": 729,
+      "sha256": "ef9d144cc87c0157536de04e2ee9a338c88abf79d1fef6cb8f476e259dacf38c",
+      "role": "Player persistent progress, bit masks, forms, storage and transient casting/Law timers."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/mana/ManaPlayer.java",
+      "class": "ManaPlayer",
+      "lines": 15,
+      "sha256": "357f5cd760709e77baf9953b0efd4ebe177790edf8fc36da85511660c7d71a5d",
+      "role": "Interface/access bridge to per-player ManaData."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/mana/StorageInventory.java",
+      "class": "StorageInventory",
+      "lines": 46,
+      "sha256": "3b8a816ff8b7c2b64fec24c208aff206e1aa59caad7ea2057883fc9f1a33d527",
+      "role": "27-slot inventory backed by player persistent storage."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/mixin/CameraMixin.java",
+      "class": "CameraMixin",
+      "lines": 40,
+      "sha256": "fb1b1b2c50db239bb1174a54c86d387be93c4e474901833098039fc785217224",
+      "role": "Apply camera shake during camera updates."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/mixin/ClientPlayerFovMixin.java",
+      "class": "ClientPlayerFovMixin",
+      "lines": 25,
+      "sha256": "4c99902ac01f27f08f8d57d7f8a24229465ab8134af3705b52b537b8fd77c222",
+      "role": "Channeling-related field-of-view changes."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/mixin/GameRendererAccessor.java",
+      "class": "GameRendererAccessor",
+      "lines": 17,
+      "sha256": "2948b9a796f3b0eb096309cc52ce670e302a82aaa298bcd65dcde99f20cbbba2",
+      "role": "Access needed for client rendering/post-processing."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/mixin/LivingEntityMixin.java",
+      "class": "LivingEntityMixin",
+      "lines": 137,
+      "sha256": "5fb598d9c1ac371e1c8b8725de0d3ba2079ff8b317359b6ad3f8a73cfefa9cad",
+      "role": "Player damage hooks: anti effects, resistance, chants, Law tracking/protection/reflection."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/mixin/MouseScrollMixin.java",
+      "class": "MouseScrollMixin",
+      "lines": 31,
+      "sha256": "3f1f51dd156133c02b15836248e25b20c34843e152dd8bf4f5b14c2dd1536213",
+      "role": "Spell selector wheel-modifier input interception."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/mixin/PlayerEntityMixin.java",
+      "class": "PlayerEntityMixin",
+      "lines": 37,
+      "sha256": "fcb1706d53bd81da4f16b52563f5f1ad9ce42c6c65bc33d87c5bd3c0947e8d7e",
+      "role": "Attach ManaData and read/write player CircleMage NBT."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/network/ModNetworking.java",
+      "class": "ModNetworking",
+      "lines": 166,
+      "sha256": "3c540efebc0d32ce81bac2af68b1fc0e7082a9171f73fad1d431d5e3575c6f91",
+      "role": "Packet identifiers and server-to-client progress/visual/journal synchronization."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/particle/ModParticles.java",
+      "class": "ModParticles",
+      "lines": 61,
+      "sha256": "98c69ed7b09b68f9e419e03cc162546412bb89d590a109bc504daf9c4225bddf",
+      "role": "Custom particle type registry."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/spell/AreaEffect.java",
+      "class": "AreaEffect",
+      "lines": 146,
+      "sha256": "00d707ec86eb20c6c6ab39de9b9d35c2986c3e3f69400d7e254b0f430ab35ba5",
+      "role": "Temporary fire/slow/poison field application and particles."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/spell/AreaEffectManager.java",
+      "class": "AreaEffectManager",
+      "lines": 47,
+      "sha256": "ddc07ad7547143b6e66dea37d78f17ceb35a0a55ac2ae5149621396721573832",
+      "role": "Global transient spell-field ticking and overlapping-field cleansing."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/spell/ArrayType.java",
+      "class": "ArrayType",
+      "lines": 26,
+      "sha256": "2a2e603af7668360ab3ee28e6b20226f411b1b94211c55b3e6d31a14afa5d83a",
+      "role": "Four selectable array effects: Fire, Thunder, Wind, Bind."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/spell/Combinations.java",
+      "class": "Combinations",
+      "lines": 431,
+      "sha256": "92883391c92d919a3a066df2612891041edec432a5f1a347b59769d73ecf1f0d",
+      "role": "Seven ordered combination implementations, targeting and shared beam helpers."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/spell/CombinationSpell.java",
+      "class": "CombinationSpell",
+      "lines": 52,
+      "sha256": "103b1289968a32916602552786c1625fdd1aa9f2df93ac743b1d69b39664e0cf",
+      "role": "Combination interface/metadata, pairing and requirement checks."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/spell/Law.java",
+      "class": "Law",
+      "lines": 37,
+      "sha256": "804d8431557fe11c77966531761642accba46b53fc586fdd26f2b942f3a2b148",
+      "role": "Eleven Laws plus None; names/categories for UI."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/spell/LawUnlocks.java",
+      "class": "LawUnlocks",
+      "lines": 150,
+      "sha256": "a1c7319974567754447569e167153e36d0bdab6a8a966103f17b7b1baba0720a",
+      "role": "Base/specific Law unlock conditions, hostile checklist and advancement awards."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/spell/MagicArray.java",
+      "class": "MagicArray",
+      "lines": 170,
+      "sha256": "25979498a75b6285656fc184f5b120b4655d03d6a37b4075ce2176a00f236b74",
+      "role": "Placed array trigger/arming/rearming/lifetime behavior and effects."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/spell/MagicArrayManager.java",
+      "class": "MagicArrayManager",
+      "lines": 29,
+      "sha256": "a0e661eef7d4b680d41a963fae074e29368dc71046e1aa0d2640e251235cc815",
+      "role": "Global transient array registry and ticking."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/spell/MagicResistance.java",
+      "class": "MagicResistance",
+      "lines": 52,
+      "sha256": "d6c6d5a9e3045ffbbbb7ea5ed307be41d199d144efcbf2f43e0b57ac2d05de2c",
+      "role": "Resistible damage classification, per-circle resistance and clamping."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/spell/PassiveChant.java",
+      "class": "PassiveChant",
+      "lines": 27,
+      "sha256": "63a342cd9cda8f0027ed586a5737316ea01318fede0dc1ab43fa9e86a1b2704b",
+      "role": "Four passive chant selections plus None."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/spell/Spell.java",
+      "class": "Spell",
+      "lines": 49,
+      "sha256": "150bbc0008dd002a4324956ac1daa6572422753f0ed38c18b3dd6b619f442284",
+      "role": "Twelve spell/form IDs, base mana, cooldown and cast-delay metadata."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/world/MageTowers.java",
+      "class": "MageTowers",
+      "lines": 212,
+      "sha256": "f6c3e31c30df0bb3ae41f3d9f744fa4207ca6fda5c80c78a95f82cb963b49fba",
+      "role": "Structure-entry detection, one-time chest population and guardian spawn."
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/world/WorldProgressState.java",
+      "class": "WorldProgressState",
+      "lines": 147,
+      "sha256": "1ccb3f4a91e40b952454b5fc8216f1908a59548ee3e1652187f54256b3b4b6bf",
+      "role": "World-wide Prodigy/Master/Lich flags and initialized tower keys."
+    }
+  ],
+  "resource_file_count": 168,
+  "resource_counts": {
+    ".fsh": 1,
+    ".json": 90,
+    ".nbt": 4,
+    ".png": 73
+  },
+  "parsed_json_count": 90,
+  "recipes": [
+    {
+      "path": "src/main/resources/data/circlemage/recipes/arcane_focus.json",
+      "id": "arcane_focus",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "C",
+        "Y",
+        "S"
+      ],
+      "key": {
+        "C": {
+          "item": "circlemage:mana_crystal"
+        },
+        "Y": {
+          "item": "circlemage:arcane_yarn"
+        },
+        "S": {
+          "item": "minecraft:stick"
+        }
+      },
+      "result": {
+        "item": "circlemage:arcane_focus",
+        "count": 1
+      }
+    },
+    {
+      "path": "src/main/resources/data/circlemage/recipes/arcane_glue.json",
+      "id": "arcane_glue",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "circlemage:mana_liquid"
+        },
+        {
+          "item": "minecraft:glowstone_dust"
+        },
+        {
+          "item": "circlemage:mana_dust"
+        },
+        {
+          "item": "minecraft:bone_meal"
+        }
+      ],
+      "result": {
+        "item": "circlemage:arcane_glue",
+        "count": 1
+      }
+    },
+    {
+      "path": "src/main/resources/data/circlemage/recipes/arcane_station.json",
+      "id": "arcane_station",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "CC",
+        "WW",
+        "WW"
+      ],
+      "key": {
+        "C": {
+          "tag": "minecraft:wool_carpets"
+        },
+        "W": {
+          "item": "circlemage:arcane_wood"
+        }
+      },
+      "result": {
+        "item": "circlemage:arcane_station",
+        "count": 1
+      }
+    },
+    {
+      "path": "src/main/resources/data/circlemage/recipes/arcane_wood.json",
+      "id": "arcane_wood",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "circlemage:mana_liquid"
+        },
+        {
+          "tag": "minecraft:planks"
+        }
+      ],
+      "result": {
+        "item": "circlemage:arcane_wood",
+        "count": 1
+      }
+    },
+    {
+      "path": "src/main/resources/data/circlemage/recipes/arcane_yarn.json",
+      "id": "arcane_yarn",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "SDS"
+      ],
+      "key": {
+        "S": {
+          "item": "circlemage:arcane_string"
+        },
+        "D": {
+          "item": "minecraft:stick"
+        }
+      },
+      "result": {
+        "item": "circlemage:arcane_yarn",
+        "count": 1
+      }
+    },
+    {
+      "path": "src/main/resources/data/circlemage/recipes/dragon_crystal.json",
+      "id": "dragon_crystal",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:dragon_breath"
+        },
+        {
+          "item": "minecraft:dragon_breath"
+        },
+        {
+          "item": "circlemage:glow_crystal"
+        },
+        {
+          "item": "circlemage:glow_crystal"
+        },
+        {
+          "item": "circlemage:arcane_glue"
+        },
+        {
+          "item": "circlemage:arcane_glue"
+        }
+      ],
+      "result": {
+        "item": "circlemage:dragon_crystal",
+        "count": 1
+      }
+    },
+    {
+      "path": "src/main/resources/data/circlemage/recipes/glow_crystal.json",
+      "id": "glow_crystal",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:glowstone_dust"
+        },
+        {
+          "item": "minecraft:glowstone_dust"
+        },
+        {
+          "item": "circlemage:mana_dust"
+        },
+        {
+          "item": "circlemage:arcane_glue"
+        }
+      ],
+      "result": {
+        "item": "circlemage:glow_crystal",
+        "count": 1
+      }
+    },
+    {
+      "path": "src/main/resources/data/circlemage/recipes/mage_robe_amethyst.json",
+      "id": "mage_robe_amethyst",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "YYY",
+        "YCY",
+        "YYY"
+      ],
+      "key": {
+        "Y": {
+          "item": "circlemage:arcane_yarn"
+        },
+        "C": {
+          "item": "minecraft:amethyst_shard"
+        }
+      },
+      "result": {
+        "item": "circlemage:mage_robe_amethyst"
+      }
+    },
+    {
+      "path": "src/main/resources/data/circlemage/recipes/mage_robe_diamond.json",
+      "id": "mage_robe_diamond",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "YYY",
+        "YCY",
+        "YYY"
+      ],
+      "key": {
+        "Y": {
+          "item": "circlemage:arcane_yarn"
+        },
+        "C": {
+          "item": "minecraft:diamond"
+        }
+      },
+      "result": {
+        "item": "circlemage:mage_robe_diamond"
+      }
+    },
+    {
+      "path": "src/main/resources/data/circlemage/recipes/mage_robe_emerald.json",
+      "id": "mage_robe_emerald",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "YYY",
+        "YCY",
+        "YYY"
+      ],
+      "key": {
+        "Y": {
+          "item": "circlemage:arcane_yarn"
+        },
+        "C": {
+          "item": "minecraft:emerald"
+        }
+      },
+      "result": {
+        "item": "circlemage:mage_robe_emerald"
+      }
+    },
+    {
+      "path": "src/main/resources/data/circlemage/recipes/mage_robe_iron.json",
+      "id": "mage_robe_iron",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "YYY",
+        "YCY",
+        "YYY"
+      ],
+      "key": {
+        "Y": {
+          "item": "circlemage:arcane_yarn"
+        },
+        "C": {
+          "item": "minecraft:iron_ingot"
+        }
+      },
+      "result": {
+        "item": "circlemage:mage_robe_iron"
+      }
+    },
+    {
+      "path": "src/main/resources/data/circlemage/recipes/mana_liquid.json",
+      "id": "mana_liquid",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:potion"
+        },
+        {
+          "item": "circlemage:mana_dust"
+        }
+      ],
+      "result": {
+        "item": "circlemage:mana_liquid",
+        "count": 1
+      }
+    },
+    {
+      "path": "src/main/resources/data/circlemage/recipes/mana_vial.json",
+      "id": "mana_vial",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:glass_bottle"
+        },
+        {
+          "item": "circlemage:mana_dust"
+        },
+        {
+          "item": "circlemage:mana_dust"
+        }
+      ],
+      "result": {
+        "item": "circlemage:mana_vial",
+        "count": 1
+      }
+    }
+  ],
+  "resource_paths": [
+    "src/main/resources/assets/circlemage/blockstates/arcane_station.json",
+    "src/main/resources/assets/circlemage/lang/en_us.json",
+    "src/main/resources/assets/circlemage/models/block/arcane_station.json",
+    "src/main/resources/assets/circlemage/models/item/arcane_focus.json",
+    "src/main/resources/assets/circlemage/models/item/arcane_glue.json",
+    "src/main/resources/assets/circlemage/models/item/arcane_station.json",
+    "src/main/resources/assets/circlemage/models/item/arcane_string.json",
+    "src/main/resources/assets/circlemage/models/item/arcane_wood.json",
+    "src/main/resources/assets/circlemage/models/item/arcane_yarn.json",
+    "src/main/resources/assets/circlemage/models/item/dragon_crystal.json",
+    "src/main/resources/assets/circlemage/models/item/fragment_of_law.json",
+    "src/main/resources/assets/circlemage/models/item/glow_crystal.json",
+    "src/main/resources/assets/circlemage/models/item/mage_robe_amethyst.json",
+    "src/main/resources/assets/circlemage/models/item/mage_robe_diamond.json",
+    "src/main/resources/assets/circlemage/models/item/mage_robe_emerald.json",
+    "src/main/resources/assets/circlemage/models/item/mage_robe_iron.json",
+    "src/main/resources/assets/circlemage/models/item/mana_crystal.json",
+    "src/main/resources/assets/circlemage/models/item/mana_dust.json",
+    "src/main/resources/assets/circlemage/models/item/mana_liquid.json",
+    "src/main/resources/assets/circlemage/models/item/mana_vial.json",
+    "src/main/resources/assets/circlemage/models/item/tome_earth.json",
+    "src/main/resources/assets/circlemage/models/item/tome_fire.json",
+    "src/main/resources/assets/circlemage/models/item/tome_misc.json",
+    "src/main/resources/assets/circlemage/models/item/tome_water.json",
+    "src/main/resources/assets/circlemage/models/item/tome_wind.json",
+    "src/main/resources/assets/circlemage/models/item/wand.json",
+    "src/main/resources/assets/circlemage/models/item/wand_tipped.json",
+    "src/main/resources/assets/circlemage/particles/arcane.json",
+    "src/main/resources/assets/circlemage/particles/arcane_trail.json",
+    "src/main/resources/assets/circlemage/particles/barrier_shard.json",
+    "src/main/resources/assets/circlemage/particles/bind_mote.json",
+    "src/main/resources/assets/circlemage/particles/dust.json",
+    "src/main/resources/assets/circlemage/particles/ember.json",
+    "src/main/resources/assets/circlemage/particles/frost.json",
+    "src/main/resources/assets/circlemage/particles/gale.json",
+    "src/main/resources/assets/circlemage/particles/light.json",
+    "src/main/resources/assets/circlemage/particles/radiance.json",
+    "src/main/resources/assets/circlemage/particles/rune_bind.json",
+    "src/main/resources/assets/circlemage/particles/rune_fire.json",
+    "src/main/resources/assets/circlemage/particles/rune_thunder.json",
+    "src/main/resources/assets/circlemage/particles/rune_wind.json",
+    "src/main/resources/assets/circlemage/particles/smoke.json",
+    "src/main/resources/assets/circlemage/particles/spark.json",
+    "src/main/resources/assets/circlemage/particles/void.json",
+    "src/main/resources/assets/circlemage/shaders/post/desaturate.json",
+    "src/main/resources/assets/circlemage/textures/block/arcane_station_side.png",
+    "src/main/resources/assets/circlemage/textures/block/arcane_station_top.png",
+    "src/main/resources/assets/circlemage/textures/entity/barrier_dome.png",
+    "src/main/resources/assets/circlemage/textures/entity/barrier_panel.png",
+    "src/main/resources/assets/circlemage/textures/entity/dark_orb.png",
+    "src/main/resources/assets/circlemage/textures/entity/magic_missile.png",
+    "src/main/resources/assets/circlemage/textures/entity/spatial_rend.png",
+    "src/main/resources/assets/circlemage/textures/entity/spear.png",
+    "src/main/resources/assets/circlemage/textures/entity/the_master.png",
+    "src/main/resources/assets/circlemage/textures/entity/wandering_mage_c1.png",
+    "src/main/resources/assets/circlemage/textures/entity/wandering_mage_c2.png",
+    "src/main/resources/assets/circlemage/textures/entity/wandering_mage_c3.png",
+    "src/main/resources/assets/circlemage/textures/entity/wandering_mage_prodigy.png",
+    "src/main/resources/assets/circlemage/textures/gui/arcane_station.png",
+    "src/main/resources/assets/circlemage/textures/gui/mana_fill.png",
+    "src/main/resources/assets/circlemage/textures/gui/mana_frame.png",
+    "src/main/resources/assets/circlemage/textures/gui/mana_orb.png",
+    "src/main/resources/assets/circlemage/textures/gui/spell/icon_anti.png",
+    "src/main/resources/assets/circlemage/textures/gui/spell/icon_barrier.png",
+    "src/main/resources/assets/circlemage/textures/gui/spell/icon_blade.png",
+    "src/main/resources/assets/circlemage/textures/gui/spell/icon_bolt.png",
+    "src/main/resources/assets/circlemage/textures/gui/spell/icon_dash.png",
+    "src/main/resources/assets/circlemage/textures/gui/spell/icon_fireball.png",
+    "src/main/resources/assets/circlemage/textures/gui/spell/icon_firebolt.png",
+    "src/main/resources/assets/circlemage/textures/gui/spell/icon_orb.png",
+    "src/main/resources/assets/circlemage/textures/gui/spell/icon_slow.png",
+    "src/main/resources/assets/circlemage/textures/gui/spell/icon_spear.png",
+    "src/main/resources/assets/circlemage/textures/gui/spell/icon_thunder.png",
+    "src/main/resources/assets/circlemage/textures/gui/spell/icon_wind.png",
+    "src/main/resources/assets/circlemage/textures/gui/spellbook_bg.png",
+    "src/main/resources/assets/circlemage/textures/item/arcane_focus.png",
+    "src/main/resources/assets/circlemage/textures/item/arcane_glue.png",
+    "src/main/resources/assets/circlemage/textures/item/arcane_string.png",
+    "src/main/resources/assets/circlemage/textures/item/arcane_wood.png",
+    "src/main/resources/assets/circlemage/textures/item/arcane_yarn.png",
+    "src/main/resources/assets/circlemage/textures/item/dragon_crystal.png",
+    "src/main/resources/assets/circlemage/textures/item/fragment_of_law.png",
+    "src/main/resources/assets/circlemage/textures/item/glow_crystal.png",
+    "src/main/resources/assets/circlemage/textures/item/mage_robe_amethyst.png",
+    "src/main/resources/assets/circlemage/textures/item/mage_robe_diamond.png",
+    "src/main/resources/assets/circlemage/textures/item/mage_robe_emerald.png",
+    "src/main/resources/assets/circlemage/textures/item/mage_robe_iron.png",
+    "src/main/resources/assets/circlemage/textures/item/mana_crystal.png",
+    "src/main/resources/assets/circlemage/textures/item/mana_dust.png",
+    "src/main/resources/assets/circlemage/textures/item/mana_liquid.png",
+    "src/main/resources/assets/circlemage/textures/item/mana_vial.png",
+    "src/main/resources/assets/circlemage/textures/item/tome_earth.png",
+    "src/main/resources/assets/circlemage/textures/item/tome_fire.png",
+    "src/main/resources/assets/circlemage/textures/item/tome_misc.png",
+    "src/main/resources/assets/circlemage/textures/item/tome_water.png",
+    "src/main/resources/assets/circlemage/textures/item/tome_wind.png",
+    "src/main/resources/assets/circlemage/textures/item/wand_base.png",
+    "src/main/resources/assets/circlemage/textures/item/wand_tip.png",
+    "src/main/resources/assets/circlemage/textures/particle/arcane.png",
+    "src/main/resources/assets/circlemage/textures/particle/dust.png",
+    "src/main/resources/assets/circlemage/textures/particle/ember.png",
+    "src/main/resources/assets/circlemage/textures/particle/frost.png",
+    "src/main/resources/assets/circlemage/textures/particle/gale.png",
+    "src/main/resources/assets/circlemage/textures/particle/hex.png",
+    "src/main/resources/assets/circlemage/textures/particle/mote.png",
+    "src/main/resources/assets/circlemage/textures/particle/radiance.png",
+    "src/main/resources/assets/circlemage/textures/particle/rune.png",
+    "src/main/resources/assets/circlemage/textures/particle/smoke.png",
+    "src/main/resources/assets/circlemage/textures/particle/spark.png",
+    "src/main/resources/assets/circlemage/textures/particle/void.png",
+    "src/main/resources/assets/minecraft/shaders/program/circlemage_gray.fsh",
+    "src/main/resources/assets/minecraft/shaders/program/circlemage_gray.json",
+    "src/main/resources/assets/minecraft/textures/models/armor/robe_amethyst_layer_1.png",
+    "src/main/resources/assets/minecraft/textures/models/armor/robe_amethyst_layer_2.png",
+    "src/main/resources/assets/minecraft/textures/models/armor/robe_diamond_layer_1.png",
+    "src/main/resources/assets/minecraft/textures/models/armor/robe_diamond_layer_2.png",
+    "src/main/resources/assets/minecraft/textures/models/armor/robe_emerald_layer_1.png",
+    "src/main/resources/assets/minecraft/textures/models/armor/robe_emerald_layer_2.png",
+    "src/main/resources/assets/minecraft/textures/models/armor/robe_iron_layer_1.png",
+    "src/main/resources/assets/minecraft/textures/models/armor/robe_iron_layer_2.png",
+    "src/main/resources/circlemage.mixins.json",
+    "src/main/resources/data/circlemage/advancements/array_carving.json",
+    "src/main/resources/data/circlemage/advancements/basic_anti_magic.json",
+    "src/main/resources/data/circlemage/advancements/combination_magic.json",
+    "src/main/resources/data/circlemage/advancements/law_black_hole.json",
+    "src/main/resources/data/circlemage/advancements/law_causality.json",
+    "src/main/resources/data/circlemage/advancements/law_creation.json",
+    "src/main/resources/data/circlemage/advancements/law_gravity_amp.json",
+    "src/main/resources/data/circlemage/advancements/law_life.json",
+    "src/main/resources/data/circlemage/advancements/law_love_of_world.json",
+    "src/main/resources/data/circlemage/advancements/law_space_manipulation.json",
+    "src/main/resources/data/circlemage/advancements/law_spatial_rend.json",
+    "src/main/resources/data/circlemage/advancements/law_storage.json",
+    "src/main/resources/data/circlemage/advancements/law_time_reversal.json",
+    "src/main/resources/data/circlemage/advancements/law_time_stop.json",
+    "src/main/resources/data/circlemage/advancements/laws.json",
+    "src/main/resources/data/circlemage/loot_tables/blocks/arcane_station.json",
+    "src/main/resources/data/circlemage/recipes/arcane_focus.json",
+    "src/main/resources/data/circlemage/recipes/arcane_glue.json",
+    "src/main/resources/data/circlemage/recipes/arcane_station.json",
+    "src/main/resources/data/circlemage/recipes/arcane_wood.json",
+    "src/main/resources/data/circlemage/recipes/arcane_yarn.json",
+    "src/main/resources/data/circlemage/recipes/dragon_crystal.json",
+    "src/main/resources/data/circlemage/recipes/glow_crystal.json",
+    "src/main/resources/data/circlemage/recipes/mage_robe_amethyst.json",
+    "src/main/resources/data/circlemage/recipes/mage_robe_diamond.json",
+    "src/main/resources/data/circlemage/recipes/mage_robe_emerald.json",
+    "src/main/resources/data/circlemage/recipes/mage_robe_iron.json",
+    "src/main/resources/data/circlemage/recipes/mana_liquid.json",
+    "src/main/resources/data/circlemage/recipes/mana_vial.json",
+    "src/main/resources/data/circlemage/structures/broken_tower_v1.nbt",
+    "src/main/resources/data/circlemage/structures/broken_tower_v2.nbt",
+    "src/main/resources/data/circlemage/structures/mage_tower.nbt",
+    "src/main/resources/data/circlemage/structures/mage_tower_special.nbt",
+    "src/main/resources/data/circlemage/tags/worldgen/biome/has_mage_tower.json",
+    "src/main/resources/data/circlemage/worldgen/structure/broken_tower_v1.json",
+    "src/main/resources/data/circlemage/worldgen/structure/broken_tower_v2.json",
+    "src/main/resources/data/circlemage/worldgen/structure/mage_tower.json",
+    "src/main/resources/data/circlemage/worldgen/structure/mage_tower_special.json",
+    "src/main/resources/data/circlemage/worldgen/structure_set/broken_towers.json",
+    "src/main/resources/data/circlemage/worldgen/structure_set/mage_towers.json",
+    "src/main/resources/data/circlemage/worldgen/structure_set/special_towers.json",
+    "src/main/resources/data/circlemage/worldgen/template_pool/broken_tower_v1.json",
+    "src/main/resources/data/circlemage/worldgen/template_pool/broken_tower_v2.json",
+    "src/main/resources/data/circlemage/worldgen/template_pool/mage_tower.json",
+    "src/main/resources/data/circlemage/worldgen/template_pool/mage_tower_special.json",
+    "src/main/resources/data/minecraft/tags/blocks/mineable/axe.json",
+    "src/main/resources/fabric.mod.json"
+  ],
+  "built_jar_sha256": "40843214fcc438d05ba28216e75e2aae5d7a438b4da68e521762af6b843890ee",
+  "installed_jar_sha256": "40843214fcc438d05ba28216e75e2aae5d7a438b4da68e521762af6b843890ee",
+  "runtime_testing": "Not performed; static review and disk-snapshot inspection only."
+}

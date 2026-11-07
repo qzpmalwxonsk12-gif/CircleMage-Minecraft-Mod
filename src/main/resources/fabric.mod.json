@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "circlemage",
+  "version": "${version}",
+  "name": "Circle Mage",
+  "description": "Channel mana and ascend the nine circles of magehood. v2: spell-wheel casting with hold-to-charge and combos, casting circles, arcane foci and bottled mana, and wandering mages that live in the world.",
+  "authors": [
+    "Arjun"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.circlemage.CircleMageMod"
+    ],
+    "client": [
+      "com.example.circlemage.client.CircleMageClient"
+    ]
+  },
+  "mixins": [
+    "circlemage.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  },
+  "suggests": {}
+}

@@ -1,0 +1,13 @@
+{
+  "display": {
+    "icon": { "item": "minecraft:black_concrete" },
+    "title": "Law: Black Hole",
+    "description": "A forbidden Law, granted only by command.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": { "code_triggered": { "trigger": "minecraft:impossible" } },
+  "requirements": [ [ "code_triggered" ] ]
+}

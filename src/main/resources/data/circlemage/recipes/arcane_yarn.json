@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SDS"
+  ],
+  "key": {
+    "S": { "item": "circlemage:arcane_string" },
+    "D": { "item": "minecraft:stick" }
+  },
+  "result": {
+    "item": "circlemage:arcane_yarn",
+    "count": 1
+  }
+}

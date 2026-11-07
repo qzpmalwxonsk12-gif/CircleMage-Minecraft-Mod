@@ -1,0 +1,1 @@
+﻿{ "type": "minecraft:crafting_shaped", "pattern": [ "CC", "WW", "WW" ], "key": { "C": { "tag": "minecraft:wool_carpets" }, "W": { "item": "circlemage:arcane_wood" } }, "result": { "item": "circlemage:arcane_station", "count": 1 } }

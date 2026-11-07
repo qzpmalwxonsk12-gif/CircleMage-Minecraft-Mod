@@ -1,0 +1,13 @@
+{
+  "display": {
+    "icon": { "item": "minecraft:flowering_azalea" },
+    "title": "Law: Love of the World",
+    "description": "With the Laws revealed, the world embraces you.",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": { "code_triggered": { "trigger": "minecraft:impossible" } },
+  "requirements": [ [ "code_triggered" ] ]
+}

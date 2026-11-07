@@ -1,0 +1,13 @@
+{
+  "display": {
+    "icon": { "item": "minecraft:recovery_compass" },
+    "title": "Law: Time Reversal",
+    "description": "A forbidden Law, granted only by command.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": { "code_triggered": { "trigger": "minecraft:impossible" } },
+  "requirements": [ [ "code_triggered" ] ]
+}

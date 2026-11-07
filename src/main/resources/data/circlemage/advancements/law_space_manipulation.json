@@ -1,0 +1,13 @@
+{
+  "display": {
+    "icon": { "item": "minecraft:ender_pearl" },
+    "title": "Law: Space Manipulation",
+    "description": "You have comprehended the void; distance bends to your will.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": { "code_triggered": { "trigger": "minecraft:impossible" } },
+  "requirements": [ [ "code_triggered" ] ]
+}

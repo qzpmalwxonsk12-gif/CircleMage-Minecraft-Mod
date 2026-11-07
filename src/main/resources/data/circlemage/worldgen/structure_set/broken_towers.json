@@ -1,0 +1,1 @@
+﻿{ "structures": [ { "structure": "circlemage:broken_tower_v1", "weight": 1 }, { "structure": "circlemage:broken_tower_v2", "weight": 1 } ], "placement": { "type": "minecraft:random_spread", "spacing": 34, "separation": 8, "salt": 1663480521 } }
