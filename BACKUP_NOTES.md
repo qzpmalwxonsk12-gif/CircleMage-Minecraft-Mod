@@ -1,4 +1,8 @@
-# Source backup
+# CircleMage-Minecraft-Mod
+
+Circle Mage: a Minecraft Fabric mod with mana, magic missiles, mage circles, and progression.
+
+Unofficial Minecraft modding project; not affiliated with or endorsed by Mojang or Microsoft. Third-party names and assets remain subject to their owners' rights.
 
 Private source snapshot prepared on 2026-11-07. Original local files were not changed.
 

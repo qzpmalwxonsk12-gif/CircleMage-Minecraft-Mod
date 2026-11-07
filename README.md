@@ -1,3 +1,5 @@
+> Unofficial Minecraft modding project; not affiliated with or endorsed by Mojang or Microsoft. Third-party names and assets remain subject to their owners' rights.
+
 # Circle Mage
 
 A Fabric mod for **Minecraft 1.20.1** that adds a channelled mana system, nine "circles" of
