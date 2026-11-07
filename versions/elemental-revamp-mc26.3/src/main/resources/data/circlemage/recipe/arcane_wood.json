@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "circlemage:mana_liquid",
+    "#minecraft:planks"
+  ],
+  "result": {
+    "count": 1,
+    "id": "circlemage:arcane_wood"
+  }
+}

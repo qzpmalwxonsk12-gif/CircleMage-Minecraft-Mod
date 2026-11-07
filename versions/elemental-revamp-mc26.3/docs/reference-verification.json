@@ -1,0 +1,29 @@
+{
+  "verified_utc": "2026-10-13T19:22:02.738944+00:00",
+  "reference": "C:\\Users\\Arjun\\MAgicModSource",
+  "originalFilesChecked": 262,
+  "originalFilesChanged": [],
+  "validResourceJsonFiles": 119,
+  "structures": [
+    {
+      "template": "broken_tower_v1.nbt",
+      "nonAirBlocksUnchanged": 1023,
+      "metadataUnchanged": true
+    },
+    {
+      "template": "broken_tower_v2.nbt",
+      "nonAirBlocksUnchanged": 1109,
+      "metadataUnchanged": true
+    },
+    {
+      "template": "mage_tower.nbt",
+      "nonAirBlocksUnchanged": 1466,
+      "metadataUnchanged": true
+    },
+    {
+      "template": "mage_tower_special.nbt",
+      "nonAirBlocksUnchanged": 1881,
+      "metadataUnchanged": true
+    }
+  ]
+}

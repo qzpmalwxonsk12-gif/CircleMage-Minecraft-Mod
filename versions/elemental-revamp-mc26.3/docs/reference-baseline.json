@@ -1,0 +1,1316 @@
+{
+  "source": "C:\\Users\\Arjun\\MAgicModSource",
+  "captured_utc": "2026-10-08T16:22:08.359333+00:00",
+  "files": [
+    {
+      "path": "src/main/java/com/example/circlemage/CircleMageMod.java",
+      "sha256": "637ad9909423249db96f8b0092ebece1989a41b58fe09fb2d35e1563db9383ad",
+      "size": 103082
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/block/ArcaneStationBlock.java",
+      "sha256": "4f72f1af7c717028889c4a6c971c2c17fdd96a0e5675623da443abb982e0743b",
+      "size": 1450
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/block/ArcaneStationScreenHandler.java",
+      "sha256": "c91acbde593090f259abbb8bb55a616aa5336229932b0ad2332561a91bdac92d",
+      "size": 7551
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/block/ModBlocks.java",
+      "sha256": "35eeb2580d040832d0008827723527f04615835b306ab60eb7fa0fafdace9297",
+      "size": 1777
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/boss/BossZone.java",
+      "sha256": "65f66b75c8893697605ae22bed5a0a930815f8326a23b9cfc3ccf3b1fe4f30e4",
+      "size": 12295
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/boss/BossZoneManager.java",
+      "sha256": "2edd8207dc32f36bcb1d2b0bf23fd768552fedf2f2c2ed7d600c9a34dd89ef34",
+      "size": 3928
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/boss/BossZoneState.java",
+      "sha256": "919d9054b8f63851a1214140e847a6aaee53f36c5efade2afc6154a0956218cf",
+      "size": 1927
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/boss/MeteorRain.java",
+      "sha256": "5b042c96aee9bce1d25ebd4b84f8add3ea0995ea0bd7adb3b90344c3a39f4e25",
+      "size": 8849
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/client/ArcaneStationScreen.java",
+      "sha256": "bf6cbb40dddf8142f04f15d61e6c3abcc4dcd5c7227cd20a8159b05ad3171aa5",
+      "size": 1701
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/client/CastingCircleRenderer.java",
+      "sha256": "368cf110cded530ed3de94f126c61db3375e5cd41a148eefff7e468040459061",
+      "size": 6560
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/client/CircleMageClient.java",
+      "sha256": "d75ee8e88698e5505cc5aa6707ef3039ec63914308bd054bd5296eaa1542760f",
+      "size": 14174
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/client/ClientImpactState.java",
+      "sha256": "7d165e0d56a2b7592c746a8aaebdd7fd4d54705340e30523f4d3000d398f3b76",
+      "size": 2025
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/client/ClientJournalState.java",
+      "sha256": "bc1a2abf6ee9d6620b67c648db39fec1e72932db4f40c85b231ef9a49d50bb80",
+      "size": 2061
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/client/ClientManaState.java",
+      "sha256": "2eaa0b937ba4af390a8c95f3b42fe77a7df2643354fdcd1126877a4804993a23",
+      "size": 3336
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/client/ClientShakeState.java",
+      "sha256": "032f582ed6f2321d21714f79aafe6d9cbba3f94d00f09041f3bf48303068d4f9",
+      "size": 1142
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/client/DarkOrbRenderer.java",
+      "sha256": "266d48242b21ad176f2018a410c3c640c53957f963e34eca9893755ed34d4bf4",
+      "size": 4280
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/client/GiveUpScreen.java",
+      "sha256": "4fcfe0a1c1ab783a6732e09833ef60665f5fef852ec946903b9eeafdbae42a19",
+      "size": 1709
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/client/LawSelectionScreen.java",
+      "sha256": "9c852514fa0ad93f3fb28306799e735a56ece5f8c9efaff1207e8ad0d22213d3",
+      "size": 3981
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/client/MagicBarrierRenderer.java",
+      "sha256": "0e6eba9f3beacb28a04a3f6c0ab86ce6af13dc78f0e4a9cfe895ebf4b98c9c13",
+      "size": 7375
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/client/MagicGlowParticle.java",
+      "sha256": "d5d4970358ca09e467b675ae57b6f8211b6adc8b17c68bc1c527fc7a085e1f2f",
+      "size": 4455
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/client/MagicMissileRenderer.java",
+      "sha256": "46db05dce813f1beaa1c8394244347afa89633c3306a77450c6c919a8b9f1521",
+      "size": 7239
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/client/MagicScreen.java",
+      "sha256": "967a7772a9809bbd5fb5247a02b6706fee9c4d61c939b893de8e143ee9aff234",
+      "size": 6692
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/client/ManaHudOverlay.java",
+      "sha256": "7bd65d64be367c278fbc424732b278d756cf7d000e87d1e1ff6164a08ad182ba",
+      "size": 4482
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/client/MasterRenderer.java",
+      "sha256": "5b927cb443d4dfa73db7da2e481465925789d450ee7331c8519748c192adf539",
+      "size": 1573
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/client/ModKeybinds.java",
+      "sha256": "4fbfa37832a0c81101ae6da20b14eb5b547339afa6bee3eaf22fe67f3b82cf8e",
+      "size": 18641
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/client/SpatialRendRenderer.java",
+      "sha256": "94f709f268c8fe718947df9b656b340f4c38595ae3b19f744d88275a88e36dfb",
+      "size": 3403
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/client/SpellbookScreen.java",
+      "sha256": "63a4b438764edfb47789d1b61d6fa2f8ad7952e6b29c5da15cfa1d62b5378500",
+      "size": 32942
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/client/SpellHudOverlay.java",
+      "sha256": "5d6a594fa888f6a1f9d06eb528abac828d84f4e7a8278769842d5f29d041b00b",
+      "size": 4101
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/client/SpellSelectorState.java",
+      "sha256": "a3387b828a72d4c0fed8eea93a73f419bcb95aa7e7bd685938182b89de8d93c0",
+      "size": 6107
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/client/TutorialBookRenderer.java",
+      "sha256": "547549f19491ec0ee2f41a30359ff7724262f1aba098f6e160072a3eb0550828",
+      "size": 2966
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/client/WanderingMageRenderer.java",
+      "sha256": "eaf9e18422ea33ef158b62aa6a58cd5e6bc0302a9f9771c2968c820af4a448a2",
+      "size": 5595
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/client/WindBladeRenderer.java",
+      "sha256": "dbbc7eaf3d6b76579352b54975ab00e406f88bcdfb29bb2257ac5bbb153b6d35",
+      "size": 785
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/command/BossMagicCommands.java",
+      "sha256": "36953956f44fdc5e49de8dced48d25bcf3a4ef4598b81246e02327000142d814",
+      "size": 10151
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/command/ModCommands.java",
+      "sha256": "a8f344f0eb6c4fce1e9e1fee5af50d2e59c43fe01ae9c04e1a28b45594f2fb7a",
+      "size": 10656
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/entity/DarkOrbEntity.java",
+      "sha256": "d2876eeaa897ae006ebfe28fc2f9474feb7893ef5284178b7534b8cd89471ef2",
+      "size": 36103
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/entity/MageIdleChannelGoal.java",
+      "sha256": "ea0622287a5bdc586abf9b60d65c1cc9d1839a33d0d51cdf05ca77dbc8a5dc54",
+      "size": 2152
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/entity/MagicBarrierEntity.java",
+      "sha256": "5246d96c6bc82a943ac157205024f89b71d6f3d7d9f42c4fd7df979e41ce94bd",
+      "size": 12837
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/entity/MagicMissileEntity.java",
+      "sha256": "caeed875ea80599ce32ebe4862b920033aa494635aa91f5a6adff9b20ff168a3",
+      "size": 17536
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/entity/MasterEntity.java",
+      "sha256": "9fc0bee0a4d73a43a23e1126e32d8df1bb08f9f4c450e1177a21f41a67781e60",
+      "size": 41032
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/entity/ModEntities.java",
+      "sha256": "f6073d0247492d10c388f983b9e0bc77b44c54419b139a5fe4064ef8d86cd122",
+      "size": 4411
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/entity/SpatialRendEntity.java",
+      "sha256": "a538863f89fe200afa3fa2e89214d5e171729a850fe5ec7ef71fa49d0d21cf20",
+      "size": 4382
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/entity/TutorialBookEntity.java",
+      "sha256": "672949b71d882e0a4d959bad278108a6d7dbff396264ff895c4824a05f38211b",
+      "size": 7067
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/entity/WanderingMageCombatGoal.java",
+      "sha256": "187e6a505b1235f4fa38d62dd51c5d65b26b2e6246e2b369ae9bf6ed6aa03095",
+      "size": 6314
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/entity/WanderingMageEntity.java",
+      "sha256": "5dafb996c28161293ec61dfdd89b2c1483355e121fb2dfdca8943f60cbf8e575",
+      "size": 39694
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/entity/WindBladeEntity.java",
+      "sha256": "040fa187bcc1459f2f8fb6a21c884b1fb7f7337cc3d765a33bd7e1be7ef2a358",
+      "size": 4630
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/item/ArcaneFocusItem.java",
+      "sha256": "adf8e5122aab92390dbb85fda8945ff1bfbb721d46e2c57a3dde607084566ea2",
+      "size": 2076
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/item/ArcaneStringItem.java",
+      "sha256": "a3ae5348fea454ebb38013217b8b61d53088f8973475a255dc9a9a3e1c3d7e77",
+      "size": 488
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/item/FragmentOfLawItem.java",
+      "sha256": "33d5a4074abcdbad8db51e57169ea1ee9e46b00f0d6d8089cf1bcb796ff558cf",
+      "size": 1188
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/item/MageRobeItem.java",
+      "sha256": "6f3ae5875f81f33a4e0a7a87ef3a6d371bb8f755d147a31cb3061dea6c3dc37d",
+      "size": 1193
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/item/MagicTomeItem.java",
+      "sha256": "659b4ffd500aa134e0f36d4222f8d6837f9c96428be667494275bdaa02278b40",
+      "size": 5418
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/item/ManaCrystalItem.java",
+      "sha256": "aab1e216a9aadee0de32ac24fd714f4bf56c7bc675958645709a75a2d75247f8",
+      "size": 2742
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/item/ManaInfusion.java",
+      "sha256": "5695e40ce42e0a59cad36565fd32b34da788a613637167f87428a4a220e1519e",
+      "size": 993
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/item/ManaVialItem.java",
+      "sha256": "353ca10b94d42035e957ec02074cb9ccca071fa7427d1f643bb02ad1b32398e1",
+      "size": 3495
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/item/ModItems.java",
+      "sha256": "7419c43d876fe226ee4b6c64c4afae60d1a6b0071c7f8051abbefe1dd5ef3860",
+      "size": 6893
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/item/RobeArmorMaterial.java",
+      "sha256": "4011fcec3661cc06b592bc4a83ecb6385b5c42071a7df0ec09c295723d34e18f",
+      "size": 1565
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/item/WandItem.java",
+      "sha256": "27a7c5c507533116e2fa89e17843680b8bb8d07ad43eb96ad2128efd64dbbdf3",
+      "size": 11309
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/mana/Circles.java",
+      "sha256": "4190cadb80c2ee85ec97e9b683fe2aa39ab6e07b36a0413549838dea0e9d1d5a",
+      "size": 1362
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/mana/ManaData.java",
+      "sha256": "ef9d144cc87c0157536de04e2ee9a338c88abf79d1fef6cb8f476e259dacf38c",
+      "size": 23655
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/mana/ManaPlayer.java",
+      "sha256": "357f5cd760709e77baf9953b0efd4ebe177790edf8fc36da85511660c7d71a5d",
+      "size": 383
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/mana/StorageInventory.java",
+      "sha256": "3b8a816ff8b7c2b64fec24c208aff206e1aa59caad7ea2057883fc9f1a33d527",
+      "size": 1402
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/mixin/CameraMixin.java",
+      "sha256": "fb1b1b2c50db239bb1174a54c86d387be93c4e474901833098039fc785217224",
+      "size": 1458
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/mixin/ClientPlayerFovMixin.java",
+      "sha256": "4c99902ac01f27f08f8d57d7f8a24229465ab8134af3705b52b537b8fd77c222",
+      "size": 1048
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/mixin/GameRendererAccessor.java",
+      "sha256": "2948b9a796f3b0eb096309cc52ce670e302a82aaa298bcd65dcde99f20cbbba2",
+      "size": 564
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/mixin/LivingEntityMixin.java",
+      "sha256": "5fb598d9c1ac371e1c8b8725de0d3ba2079ff8b317359b6ad3f8a73cfefa9cad",
+      "size": 6332
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/mixin/MouseScrollMixin.java",
+      "sha256": "3f1f51dd156133c02b15836248e25b20c34843e152dd8bf4f5b14c2dd1536213",
+      "size": 1240
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/mixin/PlayerEntityMixin.java",
+      "sha256": "fcb1706d53bd81da4f16b52563f5f1ad9ce42c6c65bc33d87c5bd3c0947e8d7e",
+      "size": 1312
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/network/ModNetworking.java",
+      "sha256": "3c540efebc0d32ce81bac2af68b1fc0e7082a9171f73fad1d431d5e3575c6f91",
+      "size": 8941
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/particle/ModParticles.java",
+      "sha256": "98c69ed7b09b68f9e419e03cc162546412bb89d590a109bc504daf9c4225bddf",
+      "size": 3186
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/spell/AreaEffect.java",
+      "sha256": "00d707ec86eb20c6c6ab39de9b9d35c2986c3e3f69400d7e254b0f430ab35ba5",
+      "size": 6065
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/spell/AreaEffectManager.java",
+      "sha256": "ddc07ad7547143b6e66dea37d78f17ceb35a0a55ac2ae5149621396721573832",
+      "size": 1324
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/spell/ArrayType.java",
+      "sha256": "2a2e603af7668360ab3ee28e6b20226f411b1b94211c55b3e6d31a14afa5d83a",
+      "size": 606
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/spell/Combinations.java",
+      "sha256": "92883391c92d919a3a066df2612891041edec432a5f1a347b59769d73ecf1f0d",
+      "size": 19940
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/spell/CombinationSpell.java",
+      "sha256": "103b1289968a32916602552786c1625fdd1aa9f2df93ac743b1d69b39664e0cf",
+      "size": 2074
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/spell/Law.java",
+      "sha256": "804d8431557fe11c77966531761642accba46b53fc586fdd26f2b942f3a2b148",
+      "size": 1259
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/spell/LawUnlocks.java",
+      "sha256": "a1c7319974567754447569e167153e36d0bdab6a8a966103f17b7b1baba0720a",
+      "size": 6429
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/spell/MagicArray.java",
+      "sha256": "25979498a75b6285656fc184f5b120b4655d03d6a37b4075ce2176a00f236b74",
+      "size": 6971
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/spell/MagicArrayManager.java",
+      "sha256": "a0e661eef7d4b680d41a963fae074e29368dc71046e1aa0d2640e251235cc815",
+      "size": 738
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/spell/MagicResistance.java",
+      "sha256": "d6c6d5a9e3045ffbbbb7ea5ed307be41d199d144efcbf2f43e0b57ac2d05de2c",
+      "size": 2236
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/spell/PassiveChant.java",
+      "sha256": "63a342cd9cda8f0027ed586a5737316ea01318fede0dc1ab43fa9e86a1b2704b",
+      "size": 878
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/spell/Spell.java",
+      "sha256": "150bbc0008dd002a4324956ac1daa6572422753f0ed38c18b3dd6b619f442284",
+      "size": 2279
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/world/MageTowers.java",
+      "sha256": "f6c3e31c30df0bb3ae41f3d9f744fa4207ca6fda5c80c78a95f82cb963b49fba",
+      "size": 9356
+    },
+    {
+      "path": "src/main/java/com/example/circlemage/world/WorldProgressState.java",
+      "sha256": "1ccb3f4a91e40b952454b5fc8216f1908a59548ee3e1652187f54256b3b4b6bf",
+      "size": 5565
+    },
+    {
+      "path": "src/main/resources/circlemage.mixins.json",
+      "sha256": "38f209af701e142ffe00d098a69234ddf9f3e90d6af8ac239bab8c9fa574b93a",
+      "size": 334
+    },
+    {
+      "path": "src/main/resources/fabric.mod.json",
+      "sha256": "ac3e1d3aefbd41ea996518efe7cacb1753417b9c36d884c538f18e11ce920365",
+      "size": 766
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/blockstates/arcane_station.json",
+      "sha256": "18765ff2c22531ba3806f400e0fc13fa2e1fbcc1b9c3c92dd87cd5e91657d0e4",
+      "size": 75
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/lang/en_us.json",
+      "sha256": "da0b988f708b6c9c07eb3682c560dcdb32bb12df813e8686a680761cb9d3daa4",
+      "size": 2745
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/models/block/arcane_station.json",
+      "sha256": "4bf84c349562f0fcc683d81be98f004cc8a4819643c496f99d72e524f2026941",
+      "size": 212
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/models/item/arcane_focus.json",
+      "sha256": "fd7869f4d996ebe2908a1b1f25495c7e4eefcc58b9543b35ca3f93e077f8cdb8",
+      "size": 108
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/models/item/arcane_glue.json",
+      "sha256": "c98a33801e37fb8781f5caa003f666c732ca12346c293f132bef7880cab309da",
+      "size": 102
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/models/item/arcane_station.json",
+      "sha256": "51fcbfeebbf04217bc225ef90da661a3b69c2f16e27f0501738c1bb9231bf13a",
+      "size": 52
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/models/item/arcane_string.json",
+      "sha256": "6c4dd9a07df919c2861759402577e79489d04da85760a4f9416ec5c4247b4f7d",
+      "size": 110
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/models/item/arcane_wood.json",
+      "sha256": "e4f9080bb19d14c100fee5e251bbff1cd80c4d2363a7bcf3d2da89405caf4ab5",
+      "size": 102
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/models/item/arcane_yarn.json",
+      "sha256": "e47bb0369f70b53d6336b3b18067f420f633b16498e5c505cda8763385bb8289",
+      "size": 108
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/models/item/dragon_crystal.json",
+      "sha256": "cbc6cf3af9c35aa7e603e9dca7068da1b8b31a7a35d0504d550f4e815b9ef71f",
+      "size": 105
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/models/item/fragment_of_law.json",
+      "sha256": "933a6659cab30187a2f89f5fa7de22bda6efede012d3931dcbaf69ecb6a316da",
+      "size": 112
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/models/item/glow_crystal.json",
+      "sha256": "59955450e9dc9b1dbd9a85e5df57f3eb0a33da27187cff0bd130a39b61476d14",
+      "size": 103
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/models/item/mage_robe_amethyst.json",
+      "sha256": "8dce8127c8569c2adcb1febcc830418fe8299a3ce5d64c38e5584af369631cba",
+      "size": 115
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/models/item/mage_robe_diamond.json",
+      "sha256": "0baa91324da795b7e299c04fb46d984f80e63e70187e858b32d6efc405e0cf86",
+      "size": 114
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/models/item/mage_robe_emerald.json",
+      "sha256": "034719a818abb4eb2bc64f16f4cfdcfb7f611d7087d693024d01de739a6db37d",
+      "size": 114
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/models/item/mage_robe_iron.json",
+      "sha256": "8f12b9a7d5cf8566fc6fc5f3ce4ef253b896c0fa2b56e7d01fbf094b9080e114",
+      "size": 111
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/models/item/mana_crystal.json",
+      "sha256": "d10df9526f9e969aa7fd5ca693e561452f5e217c742c0235c38fcf6e4ca699d1",
+      "size": 109
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/models/item/mana_dust.json",
+      "sha256": "653fd0a4f8df00d0dc3bc6753d992d7c2add7ed4474ae4bd4060329d316d5fb0",
+      "size": 106
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/models/item/mana_liquid.json",
+      "sha256": "7d4b4a7e5bbe57b56ec9e45bafbd2c1f0b3d8a582b6b59bafa518e1a958cdcca",
+      "size": 102
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/models/item/mana_vial.json",
+      "sha256": "16e9c8b37943a68af79ba169a83a43fed8ab227960988257f71cae36e85e6a17",
+      "size": 106
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/models/item/tome_earth.json",
+      "sha256": "f1c661be7efe727acdee4df0b97d4aa828fd3b43f38116643368d1e1bcf99f31",
+      "size": 101
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/models/item/tome_fire.json",
+      "sha256": "806a43b8c18a05b106cd953691e4e8d87ed022692414703c25c1095cd46782ce",
+      "size": 100
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/models/item/tome_misc.json",
+      "sha256": "37f1d597dd6746b31b193289c6e1bd9835f28e72e2f0c657ff0f4b6ece1d16e9",
+      "size": 100
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/models/item/tome_water.json",
+      "sha256": "f1290022a4553bc6181c8e7f2da37921067bb21beebab5a1fc8140ca68e1f716",
+      "size": 101
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/models/item/tome_wind.json",
+      "sha256": "fb20e2dfca092dc1335e918484e6d4519c2e509048190f0f02f58d8be826de1e",
+      "size": 100
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/models/item/wand.json",
+      "sha256": "15bf909d48b89c7b248bda5c2648854ed61511e8652ddceec221286dc84654e0",
+      "size": 201
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/models/item/wand_tipped.json",
+      "sha256": "bd0ed4b0669d94a87e98452e2bc16568581586b0b46f05e0238d0e45449fc8d5",
+      "size": 137
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/particles/arcane.json",
+      "sha256": "12694d02edcf8baafa25f1a4c25ca34d6845ab42627c1280e471f862d37ec189",
+      "size": 48
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/particles/arcane_trail.json",
+      "sha256": "4979f9ce278d4d0a007bf8e4ab9cc60607821d76de773d371fb102e789881a11",
+      "size": 46
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/particles/barrier_shard.json",
+      "sha256": "933744445af65255fa1ff9fd4b9dae65c73ec53161ed04ee39f02dd68615153d",
+      "size": 45
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/particles/bind_mote.json",
+      "sha256": "4979f9ce278d4d0a007bf8e4ab9cc60607821d76de773d371fb102e789881a11",
+      "size": 46
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/particles/dust.json",
+      "sha256": "e33add8845ecc71da93e8eafd731c9444bd5a0bed3f59bab5fd574d1371372ed",
+      "size": 46
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/particles/ember.json",
+      "sha256": "07b1d29ae6fd33bc805b7a686d90d1696de4fb178dad0e0431cc7430622e80cc",
+      "size": 47
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/particles/frost.json",
+      "sha256": "01e735480b61df74ee2d5ba081c062fb517e3c99c6f0bf5323ebaf43f5f0622e",
+      "size": 47
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/particles/gale.json",
+      "sha256": "747888b66b92f750f0a42780918c299ad11ceae30f89f3a1b132f9bda21294c6",
+      "size": 46
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/particles/light.json",
+      "sha256": "4979f9ce278d4d0a007bf8e4ab9cc60607821d76de773d371fb102e789881a11",
+      "size": 46
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/particles/radiance.json",
+      "sha256": "0d9ef341e228801241dec77c5d3b1304979e9197f0e2f3b36bd8658218af5dbb",
+      "size": 50
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/particles/rune_bind.json",
+      "sha256": "03eb738df1d78dee4b60dbc48b73789cc26d4daa81d0fc61dafaccbc7c4c7823",
+      "size": 46
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/particles/rune_fire.json",
+      "sha256": "03eb738df1d78dee4b60dbc48b73789cc26d4daa81d0fc61dafaccbc7c4c7823",
+      "size": 46
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/particles/rune_thunder.json",
+      "sha256": "03eb738df1d78dee4b60dbc48b73789cc26d4daa81d0fc61dafaccbc7c4c7823",
+      "size": 46
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/particles/rune_wind.json",
+      "sha256": "03eb738df1d78dee4b60dbc48b73789cc26d4daa81d0fc61dafaccbc7c4c7823",
+      "size": 46
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/particles/smoke.json",
+      "sha256": "5ec0191514b7ec8367e391bb434ec8b5fc353b2b45e564b6f51a6ff9c84eb783",
+      "size": 47
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/particles/spark.json",
+      "sha256": "e6bd598b82eb6189bc0cb2035f6ec3ee37961eb993ccfbb237d4c5e4184c64d6",
+      "size": 47
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/particles/void.json",
+      "sha256": "b4c4ee3754fa2b67731b3f9166ce9e8915d4d8387b7a0108b41371368be1dac1",
+      "size": 46
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/shaders/post/desaturate.json",
+      "sha256": "29b4dc1d1eb6ea47666669a741106f0c561d90d8db0a8d4028066335ff2eea74",
+      "size": 321
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/block/arcane_station_side.png",
+      "sha256": "9768d190af29083b9ce88db853d6981651b0a04f7cb30c21064fd4e94d84f3e8",
+      "size": 281
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/block/arcane_station_top.png",
+      "sha256": "7df7afe1f99939732d10a37e8edd2beacce918f4e25bc3efd9314d9a8c1e847a",
+      "size": 430
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/entity/barrier_dome.png",
+      "sha256": "1a9e266dbf2311604e2cc2d2063cb268580ab3fae2882b9dcacb1e4f69c5fda5",
+      "size": 3974
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/entity/barrier_panel.png",
+      "sha256": "2cd6083623dfe260726445769c49518155c7131facf3cac47ef252b043971696",
+      "size": 2758
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/entity/dark_orb.png",
+      "sha256": "ce64749835c84eb797ffd691ec604029c7f01bf32289038a02cd48eb8557045c",
+      "size": 4490
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/entity/magic_missile.png",
+      "sha256": "4c9036b149f2790b668174bed3e33827e1bed9aa0924b67f67992e5056cfc0cd",
+      "size": 2789
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/entity/spatial_rend.png",
+      "sha256": "a237ba1ae5d8b2a954cd5f890a05034fd8d8e575d950dc1226925ce7123e8940",
+      "size": 10395
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/entity/spear.png",
+      "sha256": "3c05a3c9e01ff53c3334db64085f599d6a66386692d12e3963eec785fa09e311",
+      "size": 3364
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/entity/the_master.png",
+      "sha256": "6bc8e55240a80c08ed5d1b8f2bd4b466b68169b2297226c589238709e24ec479",
+      "size": 532
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/entity/wandering_mage_c1.png",
+      "sha256": "5f8e60156521bef54467b9930db345ad17e2ab71f8624ba7bface392976c1d9a",
+      "size": 545
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/entity/wandering_mage_c2.png",
+      "sha256": "1d7306a3f7cb1ab19fe9b75f0779d52c0001b09c9a34723d6e150f3c8aae367e",
+      "size": 540
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/entity/wandering_mage_c3.png",
+      "sha256": "397c2bbdad0426ce723eb77dde6eab3f9df75710fe1bd2ae14b1c8c6dfcba29c",
+      "size": 547
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/entity/wandering_mage_prodigy.png",
+      "sha256": "d430229ee7c228868d2ad43a25158a9aac574dbef3df5914e2958c87192024a3",
+      "size": 535
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/gui/arcane_station.png",
+      "sha256": "59d463a8c725f9c33986bd613e65e3b390fbbc1166ee23523adc33588a854b47",
+      "size": 1848
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/gui/mana_fill.png",
+      "sha256": "583f8a2ac271cae7213336fb2a7cc01093c2e7de574b92e1b9039a5065f75943",
+      "size": 1116
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/gui/mana_frame.png",
+      "sha256": "a4e044b7c27a634d74b250c5498ff15a35ec40a030dedfca8fc2ff6e984b4348",
+      "size": 311
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/gui/mana_orb.png",
+      "sha256": "1147212e25d2a606570d20aa979d270f823c05a6168450a1632837c01d394862",
+      "size": 669
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/gui/spellbook_bg.png",
+      "sha256": "9d1edbe3fbac7c8ed0fb48fb420aab642c0f93a2e7455ddbe04eab5b5f26c9f6",
+      "size": 4351
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/gui/spell/icon_anti.png",
+      "sha256": "2c9e18115bc2f24f4063039eded9d45265111a594c6e76788994057fac6852c7",
+      "size": 715
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/gui/spell/icon_barrier.png",
+      "sha256": "53531aebbcfcef7afc93c9e1b28c03dc76cc27d2ba538ad9549c4c321c090487",
+      "size": 708
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/gui/spell/icon_blade.png",
+      "sha256": "986f828685b1cc2bee7981bb165cc718bef85175363c0b10eb64acd54b37b1e9",
+      "size": 632
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/gui/spell/icon_bolt.png",
+      "sha256": "68d5278b15e74639c5fc13ecf31742ca19704eb6f3e6d67b80f7103bae1e050f",
+      "size": 643
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/gui/spell/icon_dash.png",
+      "sha256": "8c7e4c8c02e89bacb7c268b104e12b01bf5e77c0790bf2f01514537829b86baf",
+      "size": 556
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/gui/spell/icon_fireball.png",
+      "sha256": "01666402f27bd585820699153e8c4707184b7bdfead936220a4950ee051ec944",
+      "size": 652
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/gui/spell/icon_firebolt.png",
+      "sha256": "39ad3811df7ad231f1a55c505228ba67d129713f8ff0c4fb7968f387a735729b",
+      "size": 632
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/gui/spell/icon_orb.png",
+      "sha256": "13d4e9b6cbe727f97816fb03ccb38e783dc36884250fc79bc4b7f1587f2f0354",
+      "size": 693
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/gui/spell/icon_slow.png",
+      "sha256": "e9dae0d72c3cfcc43e37aec2c06ad58a51c351923a51e6ec2f5790bbf5112a24",
+      "size": 655
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/gui/spell/icon_spear.png",
+      "sha256": "98d634973d0c30334089476b60659ac143e666da305ad3b0c4822a3e6eb776e7",
+      "size": 594
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/gui/spell/icon_thunder.png",
+      "sha256": "e8fdb126dd027c2befdbcb2cf4bed19bce773eb9c14c07b5b70c31cf5bd59382",
+      "size": 612
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/gui/spell/icon_wind.png",
+      "sha256": "728a249aa33d9e85a8c1398109e200d148e03efe1b4bec42a3f9b38a70f80ef0",
+      "size": 656
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/item/arcane_focus.png",
+      "sha256": "2e2d4f2f366bcb0623322dbdc9fa1de6a6f3a813e72f9f756eb105329deed094",
+      "size": 388
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/item/arcane_glue.png",
+      "sha256": "0ff4ee75410e20504d53af0b8a5ff3d6b2f31581688de96e9ef3ebb0c7883b81",
+      "size": 489
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/item/arcane_string.png",
+      "sha256": "30a794c01d9ccc5575ef1745fb84b1e7264d67ff4e644b413d537ff7d40a42de",
+      "size": 530
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/item/arcane_wood.png",
+      "sha256": "98f139b15b755493ca4701fafe51a0c144304ca633cb589b7dc2ce0f70d6623c",
+      "size": 275
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/item/arcane_yarn.png",
+      "sha256": "21049736da46240a06171ab34af60420e02097e9121ac0adc1bf9336c93c2b90",
+      "size": 574
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/item/dragon_crystal.png",
+      "sha256": "99810e57f1f79b26252e274c1ecc786fc783f066eb7ca1e5bdb0f3196a305cec",
+      "size": 568
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/item/fragment_of_law.png",
+      "sha256": "bfc6d47fa33bd5537601bce0acdad2a4051b705b3f518288262cea8616ca2fdc",
+      "size": 448
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/item/glow_crystal.png",
+      "sha256": "d46462ec36d981d75309e0b2e7d1dc9382c0a10407b7067ec024b7b501f159a5",
+      "size": 552
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/item/mage_robe_amethyst.png",
+      "sha256": "22e4c1f9861a21202ed54bbabf0ed80bf48160845965d1551daf0c904678a2c8",
+      "size": 462
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/item/mage_robe_diamond.png",
+      "sha256": "6e4ba91144525fe7537608c8c596a7aca2e5e45eca7d731eb2de75659fd0e696",
+      "size": 463
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/item/mage_robe_emerald.png",
+      "sha256": "251e06fc75f37625fa4f822714ef09a39431b396c5b958eb5b8261c62c52cb9b",
+      "size": 458
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/item/mage_robe_iron.png",
+      "sha256": "d9a07df96687cfb88f9e92116c45db812f4d189d94679cc8fee1f2d87a507252",
+      "size": 457
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/item/mana_crystal.png",
+      "sha256": "f294ddc8f90cb21d23055c66a3754a5082f86894bf2fb8dfde63cdf892202bb6",
+      "size": 412
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/item/mana_dust.png",
+      "sha256": "64e9cf9c8f976a991ddfcf7629df6bbc9ad6debeb1942fa3cb1f91d8731f8156",
+      "size": 334
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/item/mana_liquid.png",
+      "sha256": "9821707b88715cdd3bce813615228f35cd172b6eaee60b532e1d2c9f294a72a4",
+      "size": 289
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/item/mana_vial.png",
+      "sha256": "58b4a45c82c00542361e1686423d4e17cd1f071776ac8abbec00905f92a3c93c",
+      "size": 514
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/item/tome_earth.png",
+      "sha256": "f1a87fdeb9d3844a78c969f2a7ad9fe1724a23661060b718e277f2193124fb91",
+      "size": 384
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/item/tome_fire.png",
+      "sha256": "927439194e7c813f237a88992f8e9f2c0ba5f533d441f9afaa40ed0b0e5037a4",
+      "size": 384
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/item/tome_misc.png",
+      "sha256": "68322c7122e37329c115ba915ceeb94af3fc5ede4aab4085766f1b340ce6419b",
+      "size": 385
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/item/tome_water.png",
+      "sha256": "10db5b8fef06ce1544371550219e18050bb105cc0fbc5135030f1a28a944a95f",
+      "size": 384
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/item/tome_wind.png",
+      "sha256": "bd5729b1374e28a8660cce564693e607ee34967e75f6f55a0a8372411801e141",
+      "size": 386
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/item/wand_base.png",
+      "sha256": "46100c07bd95e5fcdbe7b720245e50e1b0d8161b42074764e87d78a8cb2adefe",
+      "size": 280
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/item/wand_tip.png",
+      "sha256": "88a42dfadb189386b64093ddcff63d2e2e5d0273aa50512c48fbee90a0da6f5e",
+      "size": 265
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/particle/arcane.png",
+      "sha256": "e4b7607dd00df5d8cddfe31a240d21008a1e9fba1023f91a48ab4550191ede21",
+      "size": 651
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/particle/dust.png",
+      "sha256": "892a34872e96e2967a99914376d19dce62177d2a7691123818a639e5414dc8bf",
+      "size": 300
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/particle/ember.png",
+      "sha256": "a0e4c510bc2c2762c34280ddd7d8b8297305d9902eec9381ff03860e3a685e77",
+      "size": 892
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/particle/frost.png",
+      "sha256": "67ec497c63d9c94a539d023911751fd2839bddde2acaaf26772370a1c9888a0f",
+      "size": 614
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/particle/gale.png",
+      "sha256": "cd6c719ef371720b26a3291d0a6fd505bf0f787084d6be03885f4c0f2431b4dd",
+      "size": 596
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/particle/hex.png",
+      "sha256": "7cd927a4886e65715a155d9ab3af81d473f51065d727c9b128d5c13b2fe8f5c4",
+      "size": 777
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/particle/mote.png",
+      "sha256": "dff1e6182d175711a831127c744caefdee6e43b5d711bf1f7bb96694f875914f",
+      "size": 625
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/particle/radiance.png",
+      "sha256": "d72bcc1e570b9785f9084fcd4546b363f15d88e7922e92defa90e7c8827abbd3",
+      "size": 765
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/particle/rune.png",
+      "sha256": "973b8a2f4970d8ee58784d2a3fc1c3935b8a5575f70aed0f395fe53b506715db",
+      "size": 1119
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/particle/smoke.png",
+      "sha256": "a6ae69cb6da401a8cb4e295afc58d5f3ee917920783e34c4288f0e786b9b6fb7",
+      "size": 706
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/particle/spark.png",
+      "sha256": "324ed0aeef6ff45e750263c7174900637750d1e7b9c6e97cd93def64028746f3",
+      "size": 451
+    },
+    {
+      "path": "src/main/resources/assets/circlemage/textures/particle/void.png",
+      "sha256": "2588d6af36a26ecc0a5076b9edfe3a86cad5feb4d18097b10f6cad0f2e69f8aa",
+      "size": 637
+    },
+    {
+      "path": "src/main/resources/assets/minecraft/shaders/program/circlemage_gray.fsh",
+      "sha256": "1db64e83af8b9badd488824394c308fda25762eaf14224112c861e33c57bcce2",
+      "size": 259
+    },
+    {
+      "path": "src/main/resources/assets/minecraft/shaders/program/circlemage_gray.json",
+      "sha256": "6ab84b0d1f346ae047b990879c730d44acdaecfd58c5534092c98ea86b706e8c",
+      "size": 530
+    },
+    {
+      "path": "src/main/resources/assets/minecraft/textures/models/armor/robe_amethyst_layer_1.png",
+      "sha256": "179059ae2daf007b5e1fb6a449d37501e24b41665dad1f87a0a91d04dbcbdc90",
+      "size": 267
+    },
+    {
+      "path": "src/main/resources/assets/minecraft/textures/models/armor/robe_amethyst_layer_2.png",
+      "sha256": "cc9be9c8ae52c21d9dfd923fd6127b70338032c1b11be2dd87842497ae528f4f",
+      "size": 137
+    },
+    {
+      "path": "src/main/resources/assets/minecraft/textures/models/armor/robe_diamond_layer_1.png",
+      "sha256": "7e2e07fed12430ddd7bdf7c8b4b6ea61dd5bbaf074a042ac5b48d482097cc0d3",
+      "size": 265
+    },
+    {
+      "path": "src/main/resources/assets/minecraft/textures/models/armor/robe_diamond_layer_2.png",
+      "sha256": "cc9be9c8ae52c21d9dfd923fd6127b70338032c1b11be2dd87842497ae528f4f",
+      "size": 137
+    },
+    {
+      "path": "src/main/resources/assets/minecraft/textures/models/armor/robe_emerald_layer_1.png",
+      "sha256": "4359c94e557e536b93d066a831715be599e96a9b88a9c5e4bc8d4bc364a5c957",
+      "size": 270
+    },
+    {
+      "path": "src/main/resources/assets/minecraft/textures/models/armor/robe_emerald_layer_2.png",
+      "sha256": "cc9be9c8ae52c21d9dfd923fd6127b70338032c1b11be2dd87842497ae528f4f",
+      "size": 137
+    },
+    {
+      "path": "src/main/resources/assets/minecraft/textures/models/armor/robe_iron_layer_1.png",
+      "sha256": "0abefbdaf08a81d8112ed719f333e75311d9db9dafffdde5cd84acef3ef30529",
+      "size": 266
+    },
+    {
+      "path": "src/main/resources/assets/minecraft/textures/models/armor/robe_iron_layer_2.png",
+      "sha256": "cc9be9c8ae52c21d9dfd923fd6127b70338032c1b11be2dd87842497ae528f4f",
+      "size": 137
+    },
+    {
+      "path": "src/main/resources/data/circlemage/advancements/array_carving.json",
+      "sha256": "b463ac8c452216552945802e051bdca0496c0dfc295ff824e82061a3e102eaac",
+      "size": 448
+    },
+    {
+      "path": "src/main/resources/data/circlemage/advancements/basic_anti_magic.json",
+      "sha256": "840f7d59d8293aadde15f28dc23bf83a9220450bccc4f9da1458033d60bf2910",
+      "size": 470
+    },
+    {
+      "path": "src/main/resources/data/circlemage/advancements/combination_magic.json",
+      "sha256": "217870331b18496192671d62e0855924c1ed904cd4f536f39592c14e84365733",
+      "size": 490
+    },
+    {
+      "path": "src/main/resources/data/circlemage/advancements/laws.json",
+      "sha256": "0cfda290ab6223211833172d49addfe19e698bc610f9e22da8e0566845d6930c",
+      "size": 471
+    },
+    {
+      "path": "src/main/resources/data/circlemage/advancements/law_black_hole.json",
+      "sha256": "a421f9efcb252941b784973b2ebf3c8f8854146f7f92b44cf89384011e5dfa19",
+      "size": 389
+    },
+    {
+      "path": "src/main/resources/data/circlemage/advancements/law_causality.json",
+      "sha256": "b69db908d293e436d401cc70743e43dd74937903b3611a5b44c75395a9ba9bd1",
+      "size": 397
+    },
+    {
+      "path": "src/main/resources/data/circlemage/advancements/law_creation.json",
+      "sha256": "5878b7fbf021f93925e5a1a28c80171a778c3894a36ad9813b0385fa2b1ebf46",
+      "size": 399
+    },
+    {
+      "path": "src/main/resources/data/circlemage/advancements/law_gravity_amp.json",
+      "sha256": "830798b23d01f54393b4b4ca78b7dc2f87487aa8a43f9ce886bc51656a058c95",
+      "size": 391
+    },
+    {
+      "path": "src/main/resources/data/circlemage/advancements/law_life.json",
+      "sha256": "5795131508312e4b5d30be062e37709e4e049a1303e989bf33df7fafc4b79737",
+      "size": 402
+    },
+    {
+      "path": "src/main/resources/data/circlemage/advancements/law_love_of_world.json",
+      "sha256": "809d339584d1f5880b63603375f1e1c11e7842491d64869e0998b032b24292bc",
+      "size": 400
+    },
+    {
+      "path": "src/main/resources/data/circlemage/advancements/law_space_manipulation.json",
+      "sha256": "2f9df7bd8541fe71c17577210c70a453dcc0c21a415de522d91e7e0ab889510d",
+      "size": 414
+    },
+    {
+      "path": "src/main/resources/data/circlemage/advancements/law_spatial_rend.json",
+      "sha256": "bd3f12f4d4728e3d142c25b77adbad0cbdf4f0fdb926b8e6ae780b3fc8743109",
+      "size": 407
+    },
+    {
+      "path": "src/main/resources/data/circlemage/advancements/law_storage.json",
+      "sha256": "fd3fa626515d49d9d63652cf0f2b471aade8a5895669c4c68912311cbda6fa7c",
+      "size": 403
+    },
+    {
+      "path": "src/main/resources/data/circlemage/advancements/law_time_reversal.json",
+      "sha256": "dd5a6cf672f9fa06196a3eb3b37148fff39df4a0aaa05e2942846e00ddfd0738",
+      "size": 394
+    },
+    {
+      "path": "src/main/resources/data/circlemage/advancements/law_time_stop.json",
+      "sha256": "64002e8ecf8bae9ef4bdf1dacfb1af592234d69f023163dd282f9b512b1437fe",
+      "size": 379
+    },
+    {
+      "path": "src/main/resources/data/circlemage/loot_tables/blocks/arcane_station.json",
+      "sha256": "3c12721b46ab2be25c8ca9e0a3f705803c6a13b45e2cee805c287c2d49afd3da",
+      "size": 212
+    },
+    {
+      "path": "src/main/resources/data/circlemage/recipes/arcane_focus.json",
+      "sha256": "248d52979f2f3c1a135a55d65959224a935c371e703e784b01e6aab0135b1f45",
+      "size": 311
+    },
+    {
+      "path": "src/main/resources/data/circlemage/recipes/arcane_glue.json",
+      "sha256": "6a15f497e11bc4231aae531e99c416c9e143127c3e1aca20403710a55c09c174",
+      "size": 275
+    },
+    {
+      "path": "src/main/resources/data/circlemage/recipes/arcane_station.json",
+      "sha256": "2170dc44b683126b93b53f41a8ff4dbf96487a69daf440f4de60699b6dc74edd",
+      "size": 236
+    },
+    {
+      "path": "src/main/resources/data/circlemage/recipes/arcane_wood.json",
+      "sha256": "f29f46fe741d08a2bd4f23343a414171f25b91d592d8240b059851288c9a1226",
+      "size": 195
+    },
+    {
+      "path": "src/main/resources/data/circlemage/recipes/arcane_yarn.json",
+      "sha256": "bc71b7c0c994d2db137485f15dcdbaa51e76ba2c4d2be73e17c77fea57160294",
+      "size": 248
+    },
+    {
+      "path": "src/main/resources/data/circlemage/recipes/dragon_crystal.json",
+      "sha256": "b456065bc724e4b07686064541996035a1ad3b334134a421e1df4faf76d22f6b",
+      "size": 361
+    },
+    {
+      "path": "src/main/resources/data/circlemage/recipes/glow_crystal.json",
+      "sha256": "88700c63fe7a293c9681f8036144a8c4da677abc41be3394f84b28e377f6f550",
+      "size": 281
+    },
+    {
+      "path": "src/main/resources/data/circlemage/recipes/mage_robe_amethyst.json",
+      "sha256": "09e65bd39c210d1dceeb18577bc12b0f93c24d2a9c4e8dea434d91a1abf4d78e",
+      "size": 268
+    },
+    {
+      "path": "src/main/resources/data/circlemage/recipes/mage_robe_diamond.json",
+      "sha256": "d1e20b4a6d8f2938b87e2dcaade0466056537505876b8ad0ab59b3b20e4816ff",
+      "size": 260
+    },
+    {
+      "path": "src/main/resources/data/circlemage/recipes/mage_robe_emerald.json",
+      "sha256": "f5c06c19e88757cbc14839059981ef33bcb92f64a2aa0e735de53fbc20277501",
+      "size": 260
+    },
+    {
+      "path": "src/main/resources/data/circlemage/recipes/mage_robe_iron.json",
+      "sha256": "8178f8e97596fea60d52498b5fa8688648e0081d7bd4ac17ba18e01b6d004ed6",
+      "size": 260
+    },
+    {
+      "path": "src/main/resources/data/circlemage/recipes/mana_liquid.json",
+      "sha256": "56580ac805f7d9fa239c242d67586ab749193700c57888ca0f02b7c6a002a088",
+      "size": 194
+    },
+    {
+      "path": "src/main/resources/data/circlemage/recipes/mana_vial.json",
+      "sha256": "7aa766d8399caef2e7f15b5dc5ae89721d8a56ced1ba7994532f5f952386d2e1",
+      "size": 260
+    },
+    {
+      "path": "src/main/resources/data/circlemage/structures/broken_tower_v1.nbt",
+      "sha256": "7607f1c0de3d5efdd9fd9818022b65f0b91d50e462b98b89303cf2d0131cb2a8",
+      "size": 31353
+    },
+    {
+      "path": "src/main/resources/data/circlemage/structures/broken_tower_v2.nbt",
+      "sha256": "7f8203de6e5f536e7fcc49927431347736a5163f444e321e9395b2cdb6bf1ec7",
+      "size": 30365
+    },
+    {
+      "path": "src/main/resources/data/circlemage/structures/mage_tower.nbt",
+      "sha256": "674ac250f8939c63bd406bf82d4546e1a1b2241908279e7e230b4bcb5f2d9c1b",
+      "size": 32514
+    },
+    {
+      "path": "src/main/resources/data/circlemage/structures/mage_tower_special.nbt",
+      "sha256": "4c9f8c1fe6dd52a52bc8357c3a749a8f290c6bd9519961186f3eadaa7d5e7a90",
+      "size": 78534
+    },
+    {
+      "path": "src/main/resources/data/circlemage/tags/worldgen/biome/has_mage_tower.json",
+      "sha256": "8a8ddb11475d6cc0401d449402dbf5943d474aa00feace7e46a7f636582d37bc",
+      "size": 457
+    },
+    {
+      "path": "src/main/resources/data/circlemage/worldgen/structure/broken_tower_v1.json",
+      "sha256": "f3ae837bd468b04538ba569ffdb1106231deed57c91c6e001553f251fe13cba0",
+      "size": 365
+    },
+    {
+      "path": "src/main/resources/data/circlemage/worldgen/structure/broken_tower_v2.json",
+      "sha256": "964457c5a85842f89968e0a8793f0c56b33aba350001dd61e9e4d28f60563f68",
+      "size": 365
+    },
+    {
+      "path": "src/main/resources/data/circlemage/worldgen/structure/mage_tower.json",
+      "sha256": "bb09a727351a474733d0f8e8a4a9df80422fbf9eff2bfc0f7b6a03bb3b4a1afa",
+      "size": 360
+    },
+    {
+      "path": "src/main/resources/data/circlemage/worldgen/structure/mage_tower_special.json",
+      "sha256": "59d2c5f11502e4b5ab524a72ca5742b56f1f74750a2b22b649518a3953c733a8",
+      "size": 370
+    },
+    {
+      "path": "src/main/resources/data/circlemage/worldgen/structure_set/broken_towers.json",
+      "sha256": "6b48f1aae1d4f2c06f0853da0b67c72ba1c6fab38ffd58235fff49167f998d92",
+      "size": 249
+    },
+    {
+      "path": "src/main/resources/data/circlemage/worldgen/structure_set/mage_towers.json",
+      "sha256": "5926cd8dff3a9f6401a48c17a8e9e3803fa405c3de9c719fb7a16cbc9bed458d",
+      "size": 184
+    },
+    {
+      "path": "src/main/resources/data/circlemage/worldgen/structure_set/special_towers.json",
+      "sha256": "dee052fd4a8b61d22bc6d002db832b64e16fdeac5c2f2bee4e87619f7134aec3",
+      "size": 192
+    },
+    {
+      "path": "src/main/resources/data/circlemage/worldgen/template_pool/broken_tower_v1.json",
+      "sha256": "46fb975a2528f0c33494d9c45c99b51ca515ef7bd4a42908690917116229b90b",
+      "size": 233
+    },
+    {
+      "path": "src/main/resources/data/circlemage/worldgen/template_pool/broken_tower_v2.json",
+      "sha256": "997d6d38361db9fc7540536347f898564d33382e58306bdaeb678ec796226196",
+      "size": 233
+    },
+    {
+      "path": "src/main/resources/data/circlemage/worldgen/template_pool/mage_tower.json",
+      "sha256": "826a3e2be3435b980a616c2f08f1b18c340d3c972eff17ee797950d813c38c44",
+      "size": 228
+    },
+    {
+      "path": "src/main/resources/data/circlemage/worldgen/template_pool/mage_tower_special.json",
+      "sha256": "928933465b5ff5d4eb65e957f305e6117f3359db9cdbed95ccfa02e858b9a84d",
+      "size": 236
+    },
+    {
+      "path": "src/main/resources/data/minecraft/tags/blocks/mineable/axe.json",
+      "sha256": "3f8aa18615c86f71ec19951f7d3026ac29f95e768ff29f243e44b9e0c4a48127",
+      "size": 68
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.jar",
+      "sha256": "cb0da6751c2b753a16ac168bb354870ebb1e162e9083f116729cec9c781156b8",
+      "size": 43453
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.properties",
+      "sha256": "712d9bc912d4b0d42b0faf8c6afeed13ae31ced75ca28463b1dfc4ced1a4bc9a",
+      "size": 250
+    },
+    {
+      "path": "nbt/magebrokentowerv1.nbt",
+      "sha256": "7607f1c0de3d5efdd9fd9818022b65f0b91d50e462b98b89303cf2d0131cb2a8",
+      "size": 31353
+    },
+    {
+      "path": "nbt/magebrokentowerv2.nbt",
+      "sha256": "7f8203de6e5f536e7fcc49927431347736a5163f444e321e9395b2cdb6bf1ec7",
+      "size": 30365
+    },
+    {
+      "path": "nbt/magetower1.nbt",
+      "sha256": "674ac250f8939c63bd406bf82d4546e1a1b2241908279e7e230b4bcb5f2d9c1b",
+      "size": 32514
+    },
+    {
+      "path": "nbt/magetowerspecailv1.nbt",
+      "sha256": "4c9f8c1fe6dd52a52bc8357c3a749a8f290c6bd9519961186f3eadaa7d5e7a90",
+      "size": 78534
+    },
+    {
+      "path": "build.gradle",
+      "sha256": "fe6aaf3f5fd8ddeea47cb09043282757790976071e90f92e0a19b331df0b895e",
+      "size": 1541
+    },
+    {
+      "path": "settings.gradle",
+      "sha256": "9cde5176237fd0a506b99e4bcade4eccba00c3eed3f4bd7d3d51897e5381c03f",
+      "size": 210
+    },
+    {
+      "path": "gradle.properties",
+      "sha256": "487b6ef6e66185211cc3417aa1beb87781c3aa08fb258aa4f396637fa75e87e5",
+      "size": 393
+    },
+    {
+      "path": "gradlew",
+      "sha256": "bf2ca3f9d7c42b831380b47ab9e7594ddc33054b3e09253a0c4862353d5d604b",
+      "size": 8714
+    },
+    {
+      "path": "gradlew.bat",
+      "sha256": "e54283c0f86074fa408c1161d08ef8f63992323a8c940c66f3626e8abc5bd8cc",
+      "size": 2848
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "38e76ca15fbbdf7275f1939ac095cd8088d273eb4c6fb0c10cc6501a8972a2ca",
+      "size": 143
+    }
+  ]
+}

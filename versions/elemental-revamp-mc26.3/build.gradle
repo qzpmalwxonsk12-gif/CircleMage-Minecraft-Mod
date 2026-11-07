@@ -1,0 +1,93 @@
+plugins {
+    id 'net.fabricmc.fabric-loom' version '1.17.21'
+    id 'maven-publish'
+}
+
+version = project.mod_version
+group = project.maven_group
+
+base {
+    archivesName = project.archives_base_name
+}
+
+repositories {
+    // Add repositories to retrieve artifacts from in here.
+    // You should only use this when depending on other mods because
+    // Loom adds the essential maven repositories to download Minecraft and libraries from automatically.
+}
+
+dependencies {
+    // To change the versions see the gradle.properties file
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+    implementation "net.fabricmc:fabric-loader:${project.loader_version}"
+
+    // Fabric API. This is technically optional, but you probably want it anyway.
+    implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+}
+
+// Test code/resources stay out of the release JAR.
+sourceSets {
+    gametest {
+        compileClasspath += sourceSets.main.compileClasspath + sourceSets.main.output
+        runtimeClasspath += sourceSets.main.runtimeClasspath + sourceSets.main.output
+    }
+}
+loom {
+    mods {
+        circlemage { sourceSet sourceSets.main }
+        circlemage_tests { sourceSet sourceSets.gametest }
+    }
+    runs {
+        gameTestServer {
+            server()
+            name 'V2 GameTest server'
+            source sourceSets.gametest
+            vmArg '-Dfabric-api.gametest'
+            vmArg "-Dfabric-api.gametest.report-file=${project.layout.buildDirectory.get()}/gametest-results.xml"
+            runDir 'build/gametest26_3'
+        }
+        visualCheck {
+            client()
+            name 'V2 isolated journal screenshots'
+            source sourceSets.gametest
+            vmArg '-Dfabric.client.gametest'
+            vmArg '-Dfabric.client.gametest.testModResourcesPath=src/gametest/resources'
+            vmArg '-Xmx3G'
+            programArg '--width'
+            programArg '960'
+            programArg '--height'
+            programArg '600'
+            runDir 'build/visualcheck26_3'
+        }
+    }
+}
+
+processResources {
+    inputs.property "version", project.version
+
+    filesMatching("fabric.mod.json") {
+        expand "version": project.version
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    it.options.release = 25
+    it.options.encoding = 'UTF-8'
+    it.options.compilerArgs += ['-Xmaxerrs', '3000']
+}
+
+java {
+    // Loom will automatically attach sourcesJar to a RemapSourcesJar task and to the "build" task
+    // if it is present.
+    // If you remove this line, sources will not be generated.
+    withSourcesJar()
+
+    sourceCompatibility = JavaVersion.VERSION_25
+    targetCompatibility = JavaVersion.VERSION_25
+}
+
+jar {
+    from("LICENSE") {
+        rename { "${it}_${project.archives_base_name}" }
+    }
+}

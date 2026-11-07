@@ -1,0 +1,95 @@
+have same circle system and mana absorption system and stuff
+
+first thing I want to change is the magic stuff
+
+add a ui for unlocked and locked magic tree, it should open with the "J" button, remove any other key that is bound to J key
+
+the player spawns with only magic missile which is a misc magic
+
+reuse the tome unlock system
+
+tomes can unlock basic magics
+
+each circle has its own magic, circle 1= T1, circle 2=T2 (if the player isn't at that circle, they cannot use that magic)
+
+circle 1-3 can be unlocked with just gathering mana
+
+circle 4 needs anti magic to unlock: when the player fights a tower guardian (import all the item and the structures from the original mod, the intact towers structer has a guardian), if the player sets fire to the guardian then the guardian should use dispel spell and the player should get a text in the test box, something like "Epiphany! you gained insights into anti magic and how to break the 4th circle" once the player has epiphany, they should have a 5% chance to unlock anti magic while performing any spell 
+
+Use your logic to import the structure form the original mod, my brain is sort of cooked trying to decide what all we would need in the new mod (I am mostly focusing on the magic part first before adding stuff)
+
+also the tower structure seem to have a problem, when they spawn theye create holes around thm, its probably because of whats in their nbt file, if you can edit the nbt file, can you streamlike the structure so that only the structre forms and no extra air blocks which break surrounding stuff
+
+at circle 1 the player should eb able to perform T1 magic
+
+in the J menu (just grab the journal form the original mod) the player should be able to select which T1 magic they want to do, T1 is the most basic magic and the player should only be able to do either magaic missile, ice volley, earth spike, fire ball or wind blades
+
+for the T2 magic the player should only be able to bind 3 T2 magic and no more 
+
+no limit ofr T 3 for now
+
+add a command /breakmagiclimit this command should remove any limits on key binding
+
+anything I have missed just use your logic and just be sure to tell me what extra stuff you've added
+
+all magics should have appropriate cost and cooldowm, I am just too pooped to be thinking about it rn
+
+add appropriate graphics and improve graphics and animation where you think it should be
+
+
+basic magics T1:
+
+fire ball: player an shoot a fireball that sets fire to the mob that is hit (half heart of damage)
+
+ice volley (water magic): shoot three ice spikes that do half heart of damage and also slow down the thing that is hit 5% for every ice spike that hits
+
+stone spike: shoot out a stone spike from the ground, does 1.5 hearts of damage 
+
+wind blades: shoot 3 wind blades, each doing .5 heart of damage and knocking back the enemy slightly with each hit
+
+magic missile (misc): reuse magic missile
+
+Basic magic T2
+
+earth magic (offence: stone fist): from the ground a earth fist erupts and hits the enemy, causes slight knockback
+
+earth magic (defensive/control: stone dome): at the cursor create a dome around the enemy, if the player is pointing down then create the dome around them
+
+wind magic (control: wind wall): reuse the wind wall
+
+wind magic (support: wind escape): reuse the dash
+
+water magic (offence: water bubble): form a bubble around the head of the entity the cursor is pointing at, the water should instantly start to suffocate the entity for 4 seconds, causing 3 hearts of damage total after which it should disappear
+
+Misc magic (Support: Vine grab): if the players cursor is pointing towards an entity, vines will emerge form the ground and immobilize the entity for 3 sec (the entity should be within 2 blcks of where the cursor is pointing)
+
+Fire Magic (Offence: area fire:): reuse area fire
+
+
+Intermediate Magic T3:
+
+Water magic (support, Soothing water): increase the natural regen of player by 2x for 30 seconds, player cannot be set on fire for these 30 seconds, steam doesn't effect the player for the 30 seconds (cannot be used while inside of steam, can be used before going into steam)
+
+Misc Magic (Support: mark): if the cursor of the player is pointing towards an entity, apply the spectral/tracking effect for 30 seconds
+
+
+Fire magic (Support: flame rebirth): cause 1.5 hearts of damage to the player, burn away any negative effect (even fire), if the player is in cobweb or has a water bubble suffocating them burn it away as well
+
+
+Intermediate magic T4:
+
+dispel/antimagic: reuse antimagic form the original mod
+
+
+
+
+
+
+
+
+
+
+combination magic: 
+
+Steam explosion: create a 2x2 radius sphere of water in front of the player and then fire surrounds the sphere which then exploded into a 12x12 block steam explosion, inside this steam the line of sight of npc is blocked, they cannot lock onto the player, ever 2 seconds inside the steam it does .5 heart of damage, the steam should be there for 30 seconds,  the steam should be like fog and obscure vision like a thick fog
+

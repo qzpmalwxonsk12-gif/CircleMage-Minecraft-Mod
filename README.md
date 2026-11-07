@@ -76,3 +76,11 @@ src/main/resources/
   data/circlemage/advancements/basic_anti_magic.json
   assets/circlemage/lang/en_us.json
 ```
+
+
+## Source variants
+
+- The original Minecraft 1.20.1 Circle Mage source remains at the repository root.
+- [Elemental revamp](versions/elemental-revamp-mc26.3/README.md): the separate newer source targets the Minecraft version declared in its own build files (26.3). It retains its own Gradle build and resources.
+
+Build and install one compatible variant at a time. Both use the `circlemage` mod ID and must not be loaded together. The elemental revamp is not a replacement build for the original game version.

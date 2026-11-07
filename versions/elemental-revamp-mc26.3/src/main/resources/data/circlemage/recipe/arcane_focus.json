@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "C",
+    "Y",
+    "S"
+  ],
+  "key": {
+    "C": "circlemage:mana_crystal",
+    "Y": "circlemage:arcane_yarn",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "count": 1,
+    "id": "circlemage:arcane_focus"
+  }
+}

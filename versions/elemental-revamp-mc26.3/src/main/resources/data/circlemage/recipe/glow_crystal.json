@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:glowstone_dust",
+    "minecraft:glowstone_dust",
+    "circlemage:mana_dust",
+    "circlemage:arcane_glue"
+  ],
+  "result": {
+    "count": 1,
+    "id": "circlemage:glow_crystal"
+  }
+}

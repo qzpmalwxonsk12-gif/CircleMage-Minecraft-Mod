@@ -1,0 +1,106 @@
+[
+  {
+    "template": "broken_tower_v1.nbt",
+    "solidBlocks": 1023,
+    "airBefore": 12837,
+    "interiorAirKept": 1551,
+    "exteriorAirRemoved": 11286,
+    "size": [
+      20,
+      33,
+      21
+    ],
+    "solidBounds": [
+      [
+        4,
+        18
+      ],
+      [
+        0,
+        29
+      ],
+      [
+        1,
+        17
+      ]
+    ]
+  },
+  {
+    "template": "broken_tower_v2.nbt",
+    "solidBlocks": 1109,
+    "airBefore": 12058,
+    "interiorAirKept": 1547,
+    "exteriorAirRemoved": 10511,
+    "size": [
+      21,
+      33,
+      19
+    ],
+    "solidBounds": [
+      [
+        3,
+        17
+      ],
+      [
+        0,
+        29
+      ],
+      [
+        3,
+        17
+      ]
+    ]
+  },
+  {
+    "template": "mage_tower.nbt",
+    "solidBlocks": 1466,
+    "airBefore": 12534,
+    "interiorAirKept": 1534,
+    "exteriorAirRemoved": 11000,
+    "size": [
+      20,
+      35,
+      20
+    ],
+    "solidBounds": [
+      [
+        4,
+        18
+      ],
+      [
+        0,
+        33
+      ],
+      [
+        4,
+        18
+      ]
+    ]
+  },
+  {
+    "template": "mage_tower_special.nbt",
+    "solidBlocks": 1881,
+    "airBefore": 34935,
+    "interiorAirKept": 3639,
+    "exteriorAirRemoved": 31296,
+    "size": [
+      24,
+      59,
+      26
+    ],
+    "solidBounds": [
+      [
+        4,
+        18
+      ],
+      [
+        0,
+        55
+      ],
+      [
+        5,
+        19
+      ]
+    ]
+  }
+]

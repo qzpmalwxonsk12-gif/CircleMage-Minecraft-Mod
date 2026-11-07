@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:glass_bottle",
+    "circlemage:mana_dust",
+    "circlemage:mana_dust"
+  ],
+  "result": {
+    "count": 1,
+    "id": "circlemage:mana_vial"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:potion",
+    "circlemage:mana_dust"
+  ],
+  "result": {
+    "count": 1,
+    "id": "circlemage:mana_liquid"
+  }
+}

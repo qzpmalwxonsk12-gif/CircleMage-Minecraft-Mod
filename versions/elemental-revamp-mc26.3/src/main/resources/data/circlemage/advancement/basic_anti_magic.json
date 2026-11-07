@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_sword"
+    },
+    "title": "Basic Anti Magic",
+    "description": "While wielding the power of the third circle, you glimpsed the art of unraveling magic.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:gui/advancements/backgrounds/stone"
+  },
+  "criteria": {
+    "code_triggered": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "code_triggered"
+    ]
+  ]
+}

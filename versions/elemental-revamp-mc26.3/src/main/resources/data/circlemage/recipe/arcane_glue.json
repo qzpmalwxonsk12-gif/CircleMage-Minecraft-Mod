@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "circlemage:mana_liquid",
+    "minecraft:glowstone_dust",
+    "circlemage:mana_dust",
+    "minecraft:bone_meal"
+  ],
+  "result": {
+    "count": 1,
+    "id": "circlemage:arcane_glue"
+  }
+}

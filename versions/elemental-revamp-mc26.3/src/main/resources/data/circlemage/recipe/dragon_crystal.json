@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:dragon_breath",
+    "minecraft:dragon_breath",
+    "circlemage:glow_crystal",
+    "circlemage:glow_crystal",
+    "circlemage:arcane_glue",
+    "circlemage:arcane_glue"
+  ],
+  "result": {
+    "count": 1,
+    "id": "circlemage:dragon_crystal"
+  }
+}

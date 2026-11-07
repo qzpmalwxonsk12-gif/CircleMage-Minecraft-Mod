@@ -1,0 +1,43 @@
+{
+  "verified_utc": "2026-10-13T19:22:36.391919+00:00",
+  "minecraft": "26.3",
+  "loader": "0.19.5",
+  "fabricApi": "0.162.0+26.3",
+  "java": 25,
+  "version": "3.0.0-alpha.2+mc26.3",
+  "modGameTests": 20,
+  "vanillaControlTests": 1,
+  "failures": 0,
+  "clientGameTest": "passed; network casting, mana synchronization, menus, models, entity gallery and applied post effect",
+  "screenshots": [
+    "tree-circle3",
+    "journal",
+    "arcane-station",
+    "spell-and-npc-gallery",
+    "impact-desaturation"
+  ],
+  "artifacts": [
+    {
+      "file": "circlemage-v2-3.0.0-alpha.2+mc26.3.jar",
+      "sha256": "b71942baf5c3195a1c89274d7bc68d76e4048748910e5c2ce71da2af23dc13e5",
+      "bytes": 571447
+    },
+    {
+      "file": "circlemage-v2-3.0.0-alpha.2+mc26.3-sources.jar",
+      "sha256": "7719afaa5203c3d405f77ab18dc55a051d7496474d8ef935f95d40f79005199a",
+      "bytes": 370549
+    }
+  ],
+  "originalFilesChecked": 262,
+  "originalFilesChanged": 0,
+  "installedInstanceModified": false,
+  "limits": [
+    "No external multiplayer or third-party modpack test",
+    "No full survival playthrough or complete Master fight",
+    "Focused old data migration checks, not a full old-world migration"
+  ],
+  "knownEnvironmentMessages": [
+    "Fabric test defaults log an invalid anisotropic-filter option before using the fallback",
+    "Offline development identity cannot authenticate with Realms/Minecraft services"
+  ]
+}

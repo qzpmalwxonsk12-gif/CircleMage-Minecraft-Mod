@@ -1,0 +1,1 @@
+﻿{ "structures": [ { "structure": "circlemage:mage_tower_special", "weight": 1 } ], "placement": { "type": "minecraft:random_spread", "spacing": 68, "separation": 17, "salt": 552919835 } }

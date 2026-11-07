@@ -1,0 +1,25 @@
+{
+  "verified_utc": "2026-10-08T17:44:38.630765+00:00",
+  "gameTests": 16,
+  "failures": 0,
+  "clientScreenshots": [
+    "tree-circle1.png",
+    "tree-circle3.png",
+    "tree-steam.png",
+    "tree-notes.png",
+    "spell-meshes.png"
+  ],
+  "artifacts": [
+    {
+      "file": "circlemage-v2-3.0.0-alpha.1.jar",
+      "sha256": "9e8979bb24d93eba76f70c3ce6744ee9b94b669b3ed63c3c821f6ce4243a0852",
+      "bytes": 521364
+    },
+    {
+      "file": "circlemage-v2-3.0.0-alpha.1-sources.jar",
+      "sha256": "2a1d79bc5d0898ad1d2962979e9b1f55eddec64789fe6ae8cfde4224be68fe38",
+      "bytes": 371797
+    }
+  ],
+  "installedInstanceModified": false
+}

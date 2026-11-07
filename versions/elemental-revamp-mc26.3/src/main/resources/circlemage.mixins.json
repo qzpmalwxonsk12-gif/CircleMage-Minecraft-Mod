@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "package": "com.example.circlemage.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "LivingEntityMixin",
+    "PlayerEntityMixin",
+    "SteamMobMixin",
+    "SoothingFireMixin"
+  ],
+  "client": [
+    "CameraMixin",
+    "ClientPlayerFovMixin",
+    "GameRendererAccessor",
+    "MouseScrollMixin",
+    "SteamFogMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

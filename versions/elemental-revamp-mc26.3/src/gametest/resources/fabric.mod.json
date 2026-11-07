@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "circlemage_tests",
+  "version": "1.0.0",
+  "name": "Circle Mage V2 development tests",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-gametest": [
+      "com.example.circlemage.test.RevampGameTests",
+      "com.example.circlemage.test.MigrationGameTests"
+    ],
+    "fabric-client-gametest": [
+      "com.example.circlemage.test.VisualChecks"
+    ]
+  },
+  "depends": {
+    "circlemage": "*",
+    "fabric-gametest-api-v1": "*"
+  }
+}
